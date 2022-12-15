@@ -331,15 +331,6 @@
 	magpulsing = TRUE
 	hat_offset = -4
 
-/obj/item/robot_module/miner/rebuild_modules()
-	. = ..()
-	if(!mining_scanner)
-		mining_scanner = new(src)
-
-/obj/item/robot_module/miner/Destroy()
-	QDEL_NULL(mining_scanner)
-	return ..()
-
 /obj/item/robot_module/security
 	name = "Security"
 	basic_modules = list(
