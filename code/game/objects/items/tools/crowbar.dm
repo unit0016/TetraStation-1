@@ -73,6 +73,13 @@
 	toolspeed = 0.5
 	force_opens = TRUE
 
+/obj/item/crowbar/power/cyborg
+	name = "integrated jaws of life"
+	desc = "An integrated set of jaws of life, sacrificing speed for comfortable installation."
+	/// Keep these in line with the crowbar basetype.
+	force = 5
+	toolspeed = 1
+
 /obj/item/crowbar/power/examine()
 	. = ..()
 	. += " It's fitted with a [tool_behaviour == TOOL_CROWBAR ? "prying" : "cutting"] head."

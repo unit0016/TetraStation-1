@@ -310,10 +310,8 @@
 		/obj/item/pipe_dispenser,
 		/obj/item/extinguisher,
 		/obj/item/weldingtool/largetank/cyborg,
-		/obj/item/screwdriver/cyborg,
-		/obj/item/wrench/cyborg,
-		/obj/item/crowbar/cyborg,
-		/obj/item/wirecutters/cyborg,
+		/obj/item/screwdriver/power/cyborg,
+		/obj/item/crowbar/power/cyborg,
 		/obj/item/multitool/cyborg,
 		/obj/item/t_scanner,
 		/obj/item/analyzer,
@@ -333,6 +331,15 @@
 	moduleselect_icon = "engineer"
 	magpulsing = TRUE
 	hat_offset = -4
+
+/obj/item/robot_module/miner/rebuild_modules()
+	. = ..()
+	if(!mining_scanner)
+		mining_scanner = new(src)
+
+/obj/item/robot_module/miner/Destroy()
+	QDEL_NULL(mining_scanner)
+	return ..()
 
 /obj/item/robot_module/security
 	name = "Security"

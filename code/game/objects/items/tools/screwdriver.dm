@@ -133,6 +133,13 @@
 		to_chat(user, "<span class='notice'>You attach the screw bit to [src].</span>")
 		icon_state = "drill_screw"
 
+/obj/item/screwdriver/power/cyborg
+	name = "automated drill"
+	desc = "A slim motor and drill-head with interchangeable screw and bolt bits."
+	/// Keep these in line with the screwdriver basetype.
+	force = 5
+	toolspeed = 1
+
 /obj/item/screwdriver/cyborg
 	name = "automated screwdriver"
 	desc = "A powerful automated screwdriver, designed to be both precise and quick."
