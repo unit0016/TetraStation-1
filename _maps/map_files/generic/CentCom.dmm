@@ -7442,15 +7442,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership/control)
-"rg" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/mob/living/simple_animal/hostile/carp/cayenne,
-/obj/structure/bed/dogbed/cayenne,
-/turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
 "rh" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Restroom";
@@ -10499,22 +10490,10 @@
 "xG" = (
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership/control)
-"xH" = (
-/obj/machinery/mech_bay_recharge_port,
-/turf/open/floor/plating,
-/area/syndicate_mothership/control)
 "xI" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/mech_bay_recharge_floor,
-/area/syndicate_mothership/control)
-"xJ" = (
-/obj/machinery/computer/mech_bay_power_console,
-/turf/open/floor/plating,
-/area/syndicate_mothership/control)
-"xK" = (
-/obj/machinery/vending/tool,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership/control)
 "xL" = (
@@ -11251,7 +11230,6 @@
 /area/syndicate_mothership/control)
 "zy" = (
 /obj/structure/table,
-/obj/item/gun/energy/ionrifle,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -38281,7 +38259,7 @@ pZ
 sh
 sh
 pZ
-rg
+pZ
 Qd
 wo
 tZ
@@ -39313,7 +39291,7 @@ nz
 uJ
 nz
 ng
-xH
+xG
 xG
 xG
 zx
@@ -39827,7 +39805,7 @@ nz
 ll
 nz
 ng
-xJ
+xG
 xG
 xG
 zx
@@ -40084,7 +40062,7 @@ nz
 ll
 nz
 ng
-xK
+xG
 xG
 yX
 zy
