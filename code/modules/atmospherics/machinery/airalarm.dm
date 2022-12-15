@@ -774,16 +774,6 @@
 					qdel(W)
 				return
 
-			if(istype(W, /obj/item/electroadaptive_pseudocircuit))
-				var/obj/item/electroadaptive_pseudocircuit/P = W
-				if(!P.adapt_circuit(user, 25))
-					return
-				user.visible_message("<span class='notice'>[user] fabricates a circuit and places it into [src].</span>", \
-				"<span class='notice'>You adapt an air alarm circuit and slot it into the assembly.</span>")
-				buildstage = 1
-				update_icon()
-				return
-
 			if(W.tool_behaviour == TOOL_WRENCH)
 				to_chat(user, "<span class='notice'>You detach \the [src] from the wall.</span>")
 				W.play_tool_sound(src)

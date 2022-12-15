@@ -374,15 +374,6 @@
 						new /obj/item/stack/sheet/plasteel(T, 2)
 					qdel(src)
 				return
-			if(istype(C, /obj/item/electroadaptive_pseudocircuit))
-				var/obj/item/electroadaptive_pseudocircuit/P = C
-				if(!P.adapt_circuit(user, DEFAULT_STEP_TIME * 0.5))
-					return
-				user.visible_message("<span class='notice'>[user] fabricates a circuit and places it into [src].</span>", \
-				"<span class='notice'>You adapt a firelock circuit and slot it into the assembly.</span>")
-				constructionStep = CONSTRUCTION_PANEL_OPEN
-				update_icon()
-				return
 	return ..()
 
 /obj/structure/firelock_frame/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)

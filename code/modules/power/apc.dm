@@ -609,34 +609,6 @@
 				locked = FALSE
 				to_chat(user, "<span class='notice'>You place the power control board inside the frame.</span>")
 				qdel(W)
-	else if(istype(W, /obj/item/electroadaptive_pseudocircuit) && opened)
-		var/obj/item/electroadaptive_pseudocircuit/P = W
-		if(!has_electronics)
-			if(machine_stat & BROKEN)
-				to_chat(user, "<span class='warning'>[src]'s frame is too damaged to support a circuit.</span>")
-				return
-			if(!P.adapt_circuit(user, 50))
-				return
-			user.visible_message("<span class='notice'>[user] fabricates a circuit and places it into [src].</span>", \
-			"<span class='notice'>You adapt a power control board and click it into place in [src]'s guts.</span>")
-			has_electronics = APC_ELECTRONICS_INSTALLED
-			locked = FALSE
-		else if(!cell)
-			if(machine_stat & MAINT)
-				to_chat(user, "<span class='warning'>There's no connector for a power cell.</span>")
-				return
-			if(!P.adapt_circuit(user, 500))
-				return
-			var/obj/item/stock_parts/cell/crap/empty/C = new(src)
-			C.forceMove(src)
-			cell = C
-			chargecount = 0
-			user.visible_message("<span class='notice'>[user] fabricates a weak power cell and places it into [src].</span>", \
-			"<span class='warning'>Your [P.name] whirrs with strain as you create a weak power cell and place it into [src]!</span>")
-			update_icon()
-		else
-			to_chat(user, "<span class='warning'>[src] has both electronics and a cell.</span>")
-			return
 	else if (istype(W, /obj/item/wallframe/apc) && opened)
 		if (!(machine_stat & BROKEN || opened==APC_COVER_REMOVED || obj_integrity < max_integrity)) // There is nothing to repair
 			to_chat(user, "<span class='warning'>You found no reason for repairing this APC!</span>")

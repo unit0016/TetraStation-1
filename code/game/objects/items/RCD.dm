@@ -638,8 +638,9 @@ RLD
 
 /obj/item/construction/rcd/borg
 	no_ammo_message = "<span class='warning'>Insufficient charge.</span>"
-	desc = "A device used to rapidly build walls and floors."
-	canRturf = TRUE
+	desc = "A device used to rapidly build walls and floors. This cyborg-specific model comes standard \
+	with a basic circuit upgrade, though others can still be applied."
+	upgrade = RCD_UPGRADE_SIMPLE_CIRCUITS
 	banned_upgrades = RCD_UPGRADE_SILO_LINK
 	var/energyfactor = 72
 
@@ -673,6 +674,7 @@ RLD
 /obj/item/construction/rcd/borg/syndicate
 	icon_state = "ircd"
 	inhand_icon_state = "ircd"
+	canRturf = TRUE
 	energyfactor = 66
 
 /obj/item/construction/rcd/loaded

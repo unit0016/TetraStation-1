@@ -241,16 +241,6 @@
 					update_icon()
 					return
 
-				else if(istype(W, /obj/item/electroadaptive_pseudocircuit))
-					var/obj/item/electroadaptive_pseudocircuit/P = W
-					if(!P.adapt_circuit(user, 15))
-						return
-					user.visible_message("<span class='notice'>[user] fabricates a circuit and places it into [src].</span>", \
-					"<span class='notice'>You adapt a fire alarm circuit and slot it into the assembly.</span>")
-					buildstage = 1
-					update_icon()
-					return
-
 				else if(W.tool_behaviour == TOOL_WRENCH)
 					user.visible_message("<span class='notice'>[user] removes the fire alarm assembly from the wall.</span>", \
 										 "<span class='notice'>You remove the fire alarm assembly from the wall.</span>")
