@@ -7439,7 +7439,7 @@
 /area/wizard_station)
 "ra" = (
 /obj/machinery/computer/shuttle,
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet/green,
 /area/wizard_station)
 "rb" = (
 /obj/effect/turf_decal/stripes/line{
@@ -7967,13 +7967,23 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/engine/cult,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/wizard_station)
 "rX" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/engine/cult,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/item/statuebust{
+	pixel_y = 12
+	},
+/obj/structure/table/wood/fancy/green,
+/turf/open/floor/wood,
 /area/wizard_station)
 "rY" = (
 /obj/item/clipboard,
@@ -8430,7 +8440,10 @@
 	icon_state = "processor";
 	name = "byond random number generator"
 	},
-/turf/open/floor/engine/cult,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/wizard_station)
 "sX" = (
 /obj/structure/showcase{
@@ -8439,7 +8452,10 @@
 	icon_state = "nim";
 	name = "wizard of yendor showcase"
 	},
-/turf/open/floor/engine/cult,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
 /area/wizard_station)
 "sY" = (
 /obj/machinery/door/airlock/centcom{
@@ -8878,7 +8894,7 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Cockpit"
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "tY" = (
 /obj/effect/baseturf_helper/asteroid/snow,
@@ -9207,13 +9223,14 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "uC" = (
-/obj/machinery/computer/camera_advanced,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "uD" = (
-/obj/structure/table/wood/fancy,
-/obj/item/radio/headset,
-/turf/open/floor/wood,
+/obj/machinery/computer/camera_advanced,
+/turf/open/floor/carpet/green,
 /area/wizard_station)
 "uE" = (
 /turf/open/floor/carpet,
@@ -9480,10 +9497,7 @@
 /turf/open/floor/wood,
 /area/wizard_station)
 "vk" = (
-/obj/structure/chair/wood/wings{
-	dir = 1
-	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/wizard_station)
 "vl" = (
 /obj/structure/chair/wood/wings{
@@ -10195,23 +10209,23 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "wM" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
+/obj/structure/chair/comfy/theatre{
+	dir = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/wizard_station)
 "wN" = (
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "wO" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "wP" = (
 /obj/structure/table/wood/fancy,
@@ -10434,19 +10448,15 @@
 /turf/open/floor/wood,
 /area/wizard_station)
 "xv" = (
-/obj/item/statuebust{
-	pixel_y = 12
-	},
-/obj/structure/table/wood/fancy,
-/turf/open/floor/wood,
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "xw" = (
 /obj/machinery/vending/magivend,
-/turf/open/floor/engine/cult,
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "xx" = (
 /obj/machinery/vending/snack,
-/turf/open/floor/engine/cult,
+/turf/open/floor/plasteel/cult,
 /area/wizard_station)
 "xy" = (
 /obj/structure/table/wood/fancy,
@@ -17455,12 +17465,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/syndicate_mothership/control)
-"ME" = (
-/obj/machinery/computer/camera_advanced{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/wizard_station)
 "MG" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -34348,7 +34352,7 @@ lI
 lI
 qE
 qE
-ME
+vj
 vj
 ya
 qZ
@@ -34604,8 +34608,8 @@ lI
 lI
 qE
 qE
-uD
-wM
+vj
+vj
 vj
 qE
 qZ
@@ -35116,8 +35120,8 @@ lI
 lI
 lI
 qE
-uC
-vk
+vj
+vj
 vj
 vj
 xu
@@ -35373,11 +35377,11 @@ qE
 qE
 qE
 qE
-uD
 vj
 vj
 vj
-xv
+vj
+vj
 qE
 yD
 qZ
@@ -35883,13 +35887,13 @@ lI
 lI
 lI
 Ax
-qZ
-qZ
-qZ
+uD
+vk
+uC
 Ax
-qZ
-qZ
-qZ
+xv
+xv
+xv
 wN
 xw
 qE
@@ -36141,14 +36145,14 @@ lI
 lI
 Ax
 ra
-qZ
-qZ
+wM
+uC
 tX
-qZ
-qZ
-qZ
-qZ
-qZ
+xv
+xv
+xv
+xv
+xv
 yb
 qZ
 qZ
@@ -36397,13 +36401,13 @@ lI
 lI
 lI
 Ax
-qZ
-qZ
-qZ
+vk
+vk
+uC
 Ax
-qZ
-qZ
-qZ
+xv
+xv
+xv
 wO
 xx
 qE
