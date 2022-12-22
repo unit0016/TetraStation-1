@@ -2,8 +2,7 @@
 	name = "Glass floor"
 	desc = "Dont jump on it, or do, I'm not your mom."
 	icon = 'icons/turf/floors/glass.dmi'
-	icon_state = "glass-0"
-	base_icon_state = "glass"
+	icon_state = "floor_glass"
 	baseturfs = /turf/open/openspace
 	intact = FALSE //this means wires go on top
 	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS)
@@ -26,5 +25,4 @@
 	name = "Reinforced glass floor"
 	desc = "Do jump on it, it can take it."
 	icon = 'icons/turf/floors/reinf_glass.dmi'
-	icon_state = "reinf_glass-0"
-	base_icon_state = "reinf_glass"
+
