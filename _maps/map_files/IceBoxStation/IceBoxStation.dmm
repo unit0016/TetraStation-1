@@ -26795,7 +26795,7 @@
 /turf/open/floor/plasteel,
 /area/security/checkpoint/medical)
 "blq" = (
-/turf/open/transparent/openspace/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "blr" = (
 /obj/machinery/computer/card/minor/cmo,
@@ -37286,7 +37286,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/transparent/openspace/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bKt" = (
 /obj/structure/table,
@@ -37434,7 +37434,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/transparent/openspace/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bKL" = (
 /obj/structure/disposalpipe/segment{
