@@ -32,6 +32,13 @@
 	dir = 4
 	},
 /area/template_noop)
+"cF" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/anticorner{
+	dir = 1
+	},
+/area/template_noop)
 "cX" = (
 /obj/effect/mob_spawn/human/oldeng{
 	dir = 4
@@ -44,8 +51,100 @@
 	},
 /turf/open/floor/plasteel/mil,
 /area/template_noop)
+"dp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/edge{
+	dir = 1
+	},
+/area/template_noop)
+"dw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"eM" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/template_noop)
+"eS" = (
+/turf/open/floor/plasteel/edge{
+	dir = 8
+	},
+/area/template_noop)
+"fP" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"fU" = (
+/obj/structure/table,
+/obj/item/trash/plate,
+/obj/item/kitchen/fork,
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/half,
+/area/template_noop)
+"gO" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"gR" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/textured/whole,
+/area/template_noop)
 "gV" = (
 /turf/open/floor/plating,
+/area/template_noop)
+"hs" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"ik" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/edge{
+	dir = 4
+	},
+/area/template_noop)
+"iz" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/template_noop)
+"iR" = (
+/obj/structure/cable,
+/obj/machinery/power/solar,
+/turf/open/floor/plasteel/solarpanel/airless,
+/area/template_noop)
+"js" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/edge,
 /area/template_noop)
 "jD" = (
 /turf/open/floor/plasteel/mil/blue{
@@ -58,9 +157,58 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"kI" = (
+/obj/effect/turf_decal/trimline/white/arrow_ccw,
+/obj/effect/turf_decal/trimline/white/arrow_ccw{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/half{
+	dir = 4
+	},
+/area/template_noop)
 "lc" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating,
+/area/template_noop)
+"lj" = (
+/obj/effect/turf_decal/trimline/white/end{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"lA" = (
+/obj/effect/turf_decal/trimline/white/end{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"lH" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/half,
+/area/template_noop)
+"lJ" = (
+/obj/structure/lattice/catwalk/over,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
+"lX" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plating,
+/area/template_noop)
+"mq" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer3{
+	dir = 4
+	},
+/turf/open/floor/plasteel/edge,
 /area/template_noop)
 "mK" = (
 /obj/machinery/door/airlock/external{
@@ -87,6 +235,11 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"nf" = (
+/turf/open/floor/plasteel/edge{
+	dir = 4
+	},
+/area/template_noop)
 "ng" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 10
@@ -99,13 +252,39 @@
 	},
 /turf/open/floor/plasteel/mil,
 /area/template_noop)
+"oi" = (
+/obj/machinery/hydroponics/soil,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/grass,
+/area/template_noop)
 "oy" = (
 /obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/template_noop)
+"oH" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass{
+	amount = 25
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/template_noop)
 "oY" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/template_noop)
+"qc" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/anticorner,
 /area/template_noop)
 "re" = (
 /obj/machinery/power/smes/engineering{
@@ -113,6 +292,31 @@
 	},
 /obj/structure/cable,
 /obj/structure/lattice/catwalk/over,
+/turf/open/floor/plating,
+/area/template_noop)
+"rn" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/turf/open/floor/plasteel/half,
+/area/template_noop)
+"rL" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/anticorner{
+	dir = 4
+	},
+/area/template_noop)
+"sh" = (
+/obj/structure/girder,
+/obj/effect/spawner/structure/window/hollow/middle,
 /turf/open/floor/plating,
 /area/template_noop)
 "sU" = (
@@ -136,15 +340,43 @@
 	dir = 4
 	},
 /area/template_noop)
+"uo" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/anticorner,
+/area/template_noop)
 "uA" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
+/area/template_noop)
+"vl" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/half,
 /area/template_noop)
 "vD" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 5
 	},
 /turf/open/floor/plating,
+/area/template_noop)
+"vN" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"vP" = (
+/obj/structure/railing,
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/template_noop)
 "vQ" = (
 /turf/closed/wall/rust,
@@ -156,6 +388,14 @@
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mil,
+/area/template_noop)
+"wX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/edge{
+	dir = 8
+	},
 /area/template_noop)
 "xs" = (
 /obj/structure/cable,
@@ -169,12 +409,59 @@
 	dir = 4
 	},
 /area/template_noop)
+"xu" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/anticorner{
+	dir = 8
+	},
+/area/template_noop)
+"yu" = (
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"zm" = (
+/turf/open/floor/grass,
+/area/template_noop)
+"zE" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/half,
+/area/template_noop)
 "zL" = (
 /turf/closed/wall,
+/area/template_noop)
+"zQ" = (
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/textured/whole,
+/area/template_noop)
+"zW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/edge{
+	dir = 4
+	},
 /area/template_noop)
 "Ah" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel/solarpanel/airless,
+/area/template_noop)
+"Am" = (
+/obj/structure/lattice/catwalk/over,
+/turf/open/floor/plating,
 /area/template_noop)
 "Ao" = (
 /obj/structure/cable,
@@ -205,11 +492,27 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/template_noop)
+"Cg" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/obj/structure/girder,
+/obj/effect/spawner/structure/window/hollow/middle,
+/turf/open/floor/plating,
+/area/template_noop)
 "Ch" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/template_noop)
+"CG" = (
+/obj/machinery/atmospherics/components/unary/tank/air,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/template_noop)
+"DF" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/item/kirbyplants/dead,
+/turf/open/floor/wood,
 /area/template_noop)
 "DM" = (
 /obj/structure/closet,
@@ -229,14 +532,36 @@
 	dir = 8
 	},
 /area/template_noop)
+"DO" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plating,
+/area/template_noop)
+"EG" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel,
+/area/template_noop)
 "EO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mil/ntlogo,
+/area/template_noop)
+"Fh" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/turf/open/floor/plating,
 /area/template_noop)
 "Fo" = (
 /turf/open/floor/plasteel/mil/blue{
 	dir = 8
 	},
+/area/template_noop)
+"Fx" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/edge,
 /area/template_noop)
 "GV" = (
 /obj/machinery/computer{
@@ -269,11 +594,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mil,
 /area/template_noop)
+"HV" = (
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
 "It" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 9
 	},
 /turf/open/floor/plating,
+/area/template_noop)
+"Iu" = (
+/obj/machinery/seed_extractor,
+/turf/open/floor/grass,
 /area/template_noop)
 "IQ" = (
 /obj/effect/mob_spawn/human/oldsci{
@@ -293,6 +625,19 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"Ji" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/grass,
+/area/template_noop)
+"Jw" = (
+/obj/structure/reagent_dispensers/watertank/high{
+	desc = "A highly-pressurized water tank, this one seems almost empty..";
+	tank_volume = 1000
+	},
+/obj/item/reagent_containers/glass/bucket,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/grass,
+/area/template_noop)
 "Ka" = (
 /turf/open/floor/plasteel/mil/ntlogo/nt3,
 /area/template_noop)
@@ -307,6 +652,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/mil,
+/area/template_noop)
+"LQ" = (
+/obj/machinery/processor,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/cafeteria,
 /area/template_noop)
 "LR" = (
 /obj/structure/showcase/machinery/oldpod{
@@ -328,11 +678,26 @@
 /obj/effect/turf_decal/trimline/blue/corner,
 /turf/open/floor/plasteel/mil,
 /area/template_noop)
+"MS" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair/comfy/brown,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/template_noop)
+"MV" = (
+/obj/machinery/hydroponics/soil,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/grass,
+/area/template_noop)
 "NW" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mil/blue{
 	dir = 4
 	},
+/area/template_noop)
+"Of" = (
+/obj/machinery/hydroponics/soil,
+/turf/open/floor/grass,
 /area/template_noop)
 "OE" = (
 /turf/template_noop,
@@ -345,9 +710,39 @@
 /obj/structure/lattice/catwalk/over,
 /turf/open/floor/plating,
 /area/template_noop)
+"Pb" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"Pf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"Pq" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Charlie Station Access"
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"Pz" = (
+/obj/machinery/vending/dinnerware,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"PE" = (
+/turf/open/floor/plasteel,
+/area/template_noop)
 "Qu" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/template_noop)
+"RH" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating,
 /area/template_noop)
 "Sb" = (
@@ -356,9 +751,38 @@
 	dir = 8
 	},
 /area/template_noop)
+"Sf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/edge{
+	dir = 1
+	},
+/area/template_noop)
+"Sg" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/edge{
+	dir = 8
+	},
+/area/template_noop)
 "Sl" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
 	dir = 8
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"TS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/edge{
+	dir = 4
+	},
+/area/template_noop)
+"Ub" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Delta Station Access"
 	},
 /turf/open/floor/plating,
 /area/template_noop)
@@ -375,6 +799,54 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mil,
 /area/template_noop)
+"UK" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/reagent_containers/spray/weedspray,
+/obj/item/reagent_containers/spray/pestspray,
+/obj/item/shovel/spade,
+/obj/item/cultivator,
+/obj/item/seeds/harebell,
+/obj/item/seeds/carrot,
+/obj/item/seeds/potato,
+/obj/item/seeds/ambrosia,
+/obj/item/seeds/poppy,
+/obj/item/seeds/grape,
+/obj/item/seeds/wheat,
+/obj/item/seeds/wheat/rice,
+/obj/item/reagent_containers/glass/bottle/nutrient/rh,
+/obj/item/reagent_containers/glass/bottle/nutrient/l4z,
+/obj/item/reagent_containers/glass/bottle/nutrient/ez,
+/turf/open/floor/grass,
+/area/template_noop)
+"UU" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/turf/open/floor/plating,
+/area/template_noop)
+"Vt" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/anticorner{
+	dir = 4
+	},
+/area/template_noop)
+"Vw" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Beta Station Access"
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"VS" = (
+/obj/machinery/hydroponics/soil,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/template_noop)
 "Wy" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -383,6 +855,16 @@
 /turf/open/floor/plasteel/mil/blue{
 	dir = 8
 	},
+/area/template_noop)
+"Xq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/edge{
+	dir = 8
+	},
+/area/template_noop)
+"Zp" = (
+/obj/machinery/atmospherics/components/binary/pump,
+/turf/open/floor/plating,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -28789,7 +29271,7 @@ OE
 OE
 OE
 zL
-oY
+Pq
 zL
 OE
 OE
@@ -29289,13 +29771,13 @@ OE
 OE
 OE
 OE
+Ah
+uA
+Ah
 OE
-OE
-OE
-OE
-OE
-OE
-OE
+Hx
+uA
+Ah
 OE
 OE
 OE
@@ -29546,13 +30028,13 @@ OE
 OE
 OE
 OE
+Ah
+uA
+Ah
 OE
-OE
-OE
-OE
-OE
-OE
-OE
+Ah
+uA
+Ah
 OE
 OE
 OE
@@ -29803,13 +30285,13 @@ OE
 OE
 OE
 OE
+Ah
+uA
+iR
 OE
-OE
-OE
-OE
-OE
-OE
-OE
+Hx
+uA
+Ah
 OE
 zL
 Ch
@@ -30058,16 +30540,16 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+iR
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+tw
 xs
 un
 un
@@ -30317,13 +30799,13 @@ OE
 OE
 OE
 OE
+Ah
+uA
+Ah
 OE
-OE
-OE
-OE
-OE
-OE
-OE
+Ah
+uA
+Ah
 OE
 zL
 Ch
@@ -30574,13 +31056,13 @@ OE
 OE
 OE
 OE
+Ah
+uA
+Ah
 OE
-OE
-OE
-OE
-OE
-OE
-OE
+Ah
+uA
+iR
 OE
 OE
 OE
@@ -30831,13 +31313,13 @@ OE
 OE
 OE
 OE
+Ah
+uA
+Ah
 OE
-OE
-OE
-OE
-OE
-OE
-OE
+iR
+uA
+iR
 OE
 OE
 OE
@@ -31356,12 +31838,12 @@ OE
 OE
 OE
 OE
+vQ
+vQ
 zL
+Vw
 zL
-zL
-oY
-zL
-zL
+vQ
 zL
 OE
 OE
@@ -31613,15 +32095,15 @@ OE
 OE
 zL
 zL
+vQ
+vP
+vl
+cF
+TS
+xu
+vQ
 zL
-gV
-gV
-gV
-gV
-gV
-zL
-zL
-zL
+vQ
 OE
 OE
 OE
@@ -31869,17 +32351,17 @@ OE
 OE
 zL
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+oH
+vQ
 zL
+zE
+Fx
+Am
+dp
+gO
+yu
 zL
+vQ
 OE
 OE
 OE
@@ -32125,19 +32607,19 @@ OE
 OE
 zL
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-zL
-zL
+Fh
+Zp
+lX
+Cg
+rn
+mq
+lJ
+dp
+hs
+Pb
+vN
+vQ
+vQ
 OE
 OE
 OE
@@ -32381,19 +32863,19 @@ OE
 OE
 zL
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+Fh
+dw
+zL
+DO
+zL
+vQ
+Fx
+Am
+Sf
+fP
+HV
+Pb
+HV
 zL
 zL
 OE
@@ -32637,21 +33119,21 @@ OE
 OE
 zL
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+CG
+dw
+vQ
+vQ
+PE
+PE
+EG
+Vt
+wX
+qc
+zL
+Pz
+Pb
+HV
+LQ
 zL
 OE
 OE
@@ -32893,17 +33375,17 @@ OE
 OE
 zL
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+zL
+zL
+zL
+vQ
+PE
+PE
+PE
+zL
+zL
+zQ
+gR
 zL
 zL
 vQ
@@ -33149,18 +33631,18 @@ OE
 OE
 OE
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+PE
+PE
+PE
+PE
+zL
+PE
+PE
+zL
+vQ
+Xq
+eS
+Sg
 vQ
 DM
 Sb
@@ -33405,19 +33887,19 @@ OE
 OE
 OE
 OE
-zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+lc
+PE
+PE
+PE
+PE
+PE
+PE
+PE
+vQ
+DF
+PE
+lA
+Pf
 kj
 EO
 MC
@@ -33662,19 +34144,19 @@ OE
 OE
 OE
 OE
-zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+lc
+PE
+PE
+PE
+PE
+UU
+PE
+PE
+vQ
+MS
+Pf
+kI
+Pf
 oc
 bc
 wf
@@ -33919,19 +34401,19 @@ OE
 OE
 OE
 OE
+lc
+PE
+PE
+PE
+PE
+PE
+PE
+PE
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+iz
+Pf
+lj
+PE
 Sl
 Ka
 sU
@@ -34177,18 +34659,18 @@ OE
 OE
 OE
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+PE
+PE
+PE
+PE
+zL
+PE
+PE
+zL
+vQ
+zW
+nf
+ik
 vQ
 GV
 jD
@@ -34435,17 +34917,17 @@ OE
 OE
 zL
 zL
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+zL
+zL
+zL
+zL
+PE
+PE
+PE
+zL
+vQ
+gR
+zQ
 zL
 vQ
 vQ
@@ -34695,19 +35177,19 @@ zL
 zL
 gV
 gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+vQ
+zL
+PE
+PE
+EG
+cF
+TS
+xu
+zL
+Jw
+zm
+Ji
+Iu
 zL
 OE
 OE
@@ -34953,19 +35435,19 @@ zL
 zL
 gV
 gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
 zL
+RH
+vQ
+vQ
+Fx
+Am
+dp
+VS
+Of
+Ji
+UK
 zL
+vQ
 OE
 OE
 OE
@@ -35212,15 +35694,15 @@ zL
 gV
 gV
 gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-zL
+sh
+vl
+js
+lJ
+Sf
+eM
+Ji
+zm
+vQ
 zL
 OE
 OE
@@ -35468,15 +35950,15 @@ OE
 zL
 zL
 gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-gV
-zL
+vQ
+vQ
+fU
+Fx
+Am
+dp
+oi
+MV
+vQ
 zL
 OE
 OE
@@ -35725,15 +36207,15 @@ OE
 OE
 zL
 zL
+vQ
+vP
+lH
+rL
+wX
+uo
 zL
-gV
-gV
-gV
-gV
-gV
 zL
-zL
-zL
+vQ
 OE
 OE
 OE
@@ -35984,11 +36466,11 @@ OE
 OE
 zL
 zL
+vQ
+Ub
 zL
-zL
-zL
-zL
-zL
+vQ
+vQ
 OE
 OE
 OE
