@@ -18,6 +18,10 @@
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel,
 /area/template_noop)
+"bv" = (
+/obj/machinery/atmospherics/pipe/manifold/dark/visible,
+/turf/open/floor/plasteel,
+/area/template_noop)
 "bB" = (
 /obj/structure/window/spawner/north,
 /obj/structure/window/spawner/east,
@@ -57,6 +61,11 @@
 "cC" = (
 /obj/structure/window/spawner/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"cP" = (
+/obj/structure/window,
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
 /turf/open/floor/plasteel,
 /area/template_noop)
 "cU" = (
@@ -178,6 +187,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/template_noop)
+"hQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/effect/spawner/structure/window/hollow/middle{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "hY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
 	dir = 8
@@ -255,6 +271,13 @@
 /obj/item/pen,
 /turf/open/floor/plasteel/white,
 /area/template_noop)
+"ll" = (
+/obj/structure/window,
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "lm" = (
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
@@ -274,6 +297,10 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/template_noop)
+"lz" = (
+/obj/machinery/atmospherics/components/binary/valve,
+/turf/open/floor/plasteel,
 /area/template_noop)
 "lA" = (
 /obj/structure/window,
@@ -353,6 +380,10 @@
 "nW" = (
 /obj/effect/spawner/structure/window/hollow/middle,
 /turf/open/floor/plating,
+/area/template_noop)
+"om" = (
+/obj/machinery/atmospherics/components/unary/vent_pump,
+/turf/open/floor/plasteel,
 /area/template_noop)
 "oq" = (
 /obj/structure/table,
@@ -463,6 +494,10 @@
 /obj/item/storage/firstaid/fire,
 /turf/open/floor/plasteel/white,
 /area/template_noop)
+"rR" = (
+/obj/machinery/airalarm,
+/turf/open/floor/plasteel,
+/area/template_noop)
 "rU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
 	dir = 1
@@ -473,6 +508,18 @@
 /obj/structure/window,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
 	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
+"sd" = (
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"sh" = (
+/obj/structure/window,
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 5
 	},
 /turf/open/floor/plasteel,
 /area/template_noop)
@@ -573,6 +620,10 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
+/area/template_noop)
+"vo" = (
+/obj/effect/mob_spawn/drone,
+/turf/open/floor/plasteel,
 /area/template_noop)
 "vy" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
@@ -709,6 +760,12 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plasteel,
 /area/template_noop)
+"Ah" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "Ak" = (
 /obj/structure/closet/l3closet,
 /turf/open/floor/plasteel,
@@ -733,10 +790,26 @@
 	},
 /turf/open/floor/plasteel,
 /area/template_noop)
+"Bi" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 10
+	},
+/obj/machinery/button/door{
+	pixel_y = -24;
+	id = "atmosoutlet"
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "Bq" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel/white,
+/area/template_noop)
+"Bw" = (
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
 /area/template_noop)
 "BE" = (
 /obj/structure/table,
@@ -799,6 +872,10 @@
 /obj/structure/closet/secure_closet/medical1,
 /turf/open/floor/plasteel/white,
 /area/template_noop)
+"CL" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/turf/open/floor/plasteel,
+/area/template_noop)
 "CW" = (
 /obj/structure/bed,
 /turf/open/floor/plasteel,
@@ -820,6 +897,12 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel,
 /area/template_noop)
+"DC" = (
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "DF" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
@@ -839,6 +922,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/template_noop)
+"Ei" = (
+/obj/machinery/atmospherics/pipe/manifold/dark/visible{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "Ep" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 4
@@ -851,6 +940,11 @@
 /area/template_noop)
 "ED" = (
 /obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"EK" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/structure/grille,
 /turf/open/floor/plasteel,
 /area/template_noop)
 "EN" = (
@@ -896,6 +990,11 @@
 "Gl" = (
 /obj/structure/window,
 /turf/template_noop,
+/area/template_noop)
+"Gm" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/firealarm/partyalarm/directional/east,
+/turf/open/floor/plasteel,
 /area/template_noop)
 "Gr" = (
 /obj/machinery/camera/autoname,
@@ -977,8 +1076,9 @@
 /turf/open/floor/plasteel/dark,
 /area/template_noop)
 "Jj" = (
-/obj/machinery/power/apc/auto_name/north,
-/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/template_noop)
 "Jm" = (
@@ -1136,6 +1236,11 @@
 /obj/machinery/computer/monitor,
 /turf/open/floor/plasteel,
 /area/template_noop)
+"Px" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/machinery/meter/atmos,
+/turf/open/floor/plasteel,
+/area/template_noop)
 "Py" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
@@ -1149,6 +1254,36 @@
 "PI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"PK" = (
+/obj/structure/window/spawner/east,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 4
+	},
+/obj/machinery/door/poddoor{
+	id = "atmosoutlet"
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
+"PR" = (
+/obj/structure/grille,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"PX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
+	dir = 4
+	},
+/obj/machinery/camera/autoname{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
+"Qn" = (
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
 /turf/open/floor/plasteel,
 /area/template_noop)
 "QE" = (
@@ -1218,6 +1353,10 @@
 "Tw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer3,
 /obj/item/extinguisher,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"Tx" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel,
 /area/template_noop)
 "TH" = (
@@ -1368,6 +1507,26 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
 /area/template_noop)
+"Xs" = (
+/obj/machinery/door/window/southright,
+/turf/template_noop,
+/area/template_noop)
+"Xt" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/machinery/meter/atmos,
+/obj/structure/grille,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"XF" = (
+/obj/item/wrench,
+/turf/open/floor/plasteel,
+/area/template_noop)
+"XH" = (
+/obj/machinery/door/poddoor{
+	id = "atmosoutlet"
+	},
+/turf/open/floor/plasteel,
+/area/template_noop)
 "XJ" = (
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/plasteel,
@@ -1451,6 +1610,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
+/area/template_noop)
+"ZR" = (
+/obj/structure/window/spawner/east,
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/turf/open/floor/plasteel,
 /area/template_noop)
 "ZU" = (
 /obj/machinery/firealarm/partyalarm/directional/south,
@@ -2772,22 +2936,22 @@ jS
 oI
 Ot
 Ot
-oI
+DB
 JT
 VE
 nJ
 VE
 nJ
 Ot
-VE
-VE
-VE
-VE
-VE
-Hy
+DB
+Tx
+sd
+CL
+EK
+sh
 Ml
 ig
-Jm
+PX
 Ow
 VE
 bV
@@ -2814,20 +2978,20 @@ Nv
 Ot
 Ot
 Ot
-Jj
+tE
 VE
 VE
 VE
 VE
-VE
+aR
 Ot
+DB
 VE
-VE
-VE
-VE
-VE
-Hy
-VE
+oI
+rR
+PR
+ll
+Qn
 ig
 VE
 MA
@@ -2856,27 +3020,27 @@ Hy
 rU
 ge
 Ot
-Ot
 jN
 VE
 VE
 VE
 VE
+ZU
 Ot
-VE
-VE
-VE
-VE
-VE
-Hy
-VE
+DB
+rR
+oI
+hQ
+Xt
+cP
+Jj
 VE
 nJ
 mC
 VE
 bV
 Ot
-qF
+Ot
 Ot
 VE
 nb
@@ -2898,27 +3062,27 @@ Hf
 ge
 AO
 Ot
-Ot
 IP
+VE
 VE
 Jm
 VE
 VE
 Ot
+DB
 VE
-VE
-VE
-VE
-VE
+oI
+rR
+PR
 Hy
-VE
+Qn
 VE
 VE
 bB
 BV
 hp
 Ot
-Ot
+Bw
 Ot
 VE
 nb
@@ -2940,27 +3104,27 @@ Hy
 rU
 ge
 Ot
-Ot
+VE
 XJ
 bR
 VE
 VE
 rU
 Ot
+PK
 Su
-Su
-Su
+ZR
 CI
-VE
+XH
 UH
-VE
+XF
 JT
 VE
 VE
 VE
-ZU
-Ot
-qF
+VE
+VE
+Ah
 Ot
 hY
 Ot
@@ -2984,25 +3148,25 @@ AO
 Ot
 Ot
 Ot
-Ot
 Nv
 Nv
 Nv
+Nv
 Ot
+Bi
+CL
+Px
+CL
+Jj
 VE
 VE
 VE
 VE
 VE
-VE
-VE
-VE
-VE
-VE
-VE
-AO
-Ot
-qF
+om
+lz
+Ei
+bv
 Ot
 VE
 nb
@@ -3034,7 +3198,7 @@ Ot
 VE
 VE
 VE
-VE
+Fv
 VE
 VE
 JT
@@ -3043,8 +3207,8 @@ VE
 VE
 VE
 gV
-Ot
-qF
+Ah
+Ah
 Ot
 VE
 nb
@@ -3085,8 +3249,8 @@ VE
 gK
 BV
 xk
-Ot
-Ot
+DC
+DC
 Ot
 VE
 nb
@@ -3128,7 +3292,7 @@ NP
 VE
 NP
 Ot
-qF
+Ot
 Ot
 VE
 nb
@@ -3239,12 +3403,12 @@ VE
 VE
 VE
 rb
-qF
-qF
-qF
-qF
-qF
-qF
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 VE
 VE
@@ -3281,12 +3445,12 @@ Nv
 Nv
 Nv
 rb
-qF
-qF
-qF
-qF
-qF
-qF
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 bR
 VE
@@ -3323,12 +3487,12 @@ qF
 qF
 qF
 rb
-qF
-qF
-qF
-qF
-qF
-qF
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 VE
 VE
@@ -3365,12 +3529,12 @@ qF
 qF
 qF
 rb
-qF
-qF
-qF
-qF
-qF
-qF
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 rb
 rb
@@ -3407,12 +3571,12 @@ qF
 qF
 qF
 rb
-qF
-qF
-qF
-qF
-qF
-qF
+yt
+VE
+VE
+VE
+VE
+VE
 rb
 XP
 VE
@@ -3420,7 +3584,7 @@ VE
 Ad
 rb
 VE
-VE
+wZ
 VE
 cb
 Ot
@@ -3447,14 +3611,14 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Xs
+Gm
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 cU
 VE
@@ -3489,14 +3653,14 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+rb
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 cU
 VE
@@ -3531,14 +3695,14 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+Hf
+VE
+VE
+VE
+VE
+VE
+VE
 rb
 cU
 VE
@@ -3573,14 +3737,14 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+DH
+rb
+rb
+lx
+lx
+lx
+VE
 rb
 cU
 VE
@@ -3615,14 +3779,14 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+rb
+rb
+VE
+VE
+VE
+VE
+VE
 rb
 cU
 VE
@@ -3658,13 +3822,13 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+Ot
+VE
+VE
+VE
+VE
+VE
 rb
 cU
 VE
@@ -3700,17 +3864,17 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+Ot
+VE
+VE
+VE
+VE
+VE
 rb
 bR
-VE
-VE
+gw
+vo
 rU
 rb
 tE
@@ -3742,13 +3906,13 @@ qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
 rb
 rb
 rb
