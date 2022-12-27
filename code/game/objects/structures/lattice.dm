@@ -123,3 +123,44 @@
 		else
 			to_chat(user, "<span class='warning'>You need one floor tile to build atop [src].</span>")
 		return
+
+/// Clockwork Lattices ///
+
+/obj/structure/lattice/clockwork
+	name = "cog lattice"
+	desc = "A lightweight support lattice. These hold the scattered remnants of Reebe's structures together."
+	icon = 'icons/obj/smooth_structures/lattice_clockwork.dmi'
+
+/obj/structure/lattice/clockwork/Initialize(mapload)
+	. = ..()
+	if(ISODD(x+y))
+		icon = 'icons/obj/smooth_structures/lattice_clockwork_large.dmi'
+		pixel_x = -9
+		pixel_y = -9
+	else
+		icon = 'icons/obj/smooth_structures/lattice_clockwork.dmi'
+		pixel_x = 0
+		pixel_y = 0
+
+/obj/structure/lattice/clockwork/indestructible
+	resistance_flags = INDESTRUCTIBLE
+
+/// Clockwork Catwalks ///
+
+/obj/structure/lattice/catwalk/clockwork
+	name = "clockwork catwalk"
+	icon = 'icons/obj/smooth_structures/catwalk_clockwork.dmi'
+	canSmoothWith = list(SMOOTH_GROUP_LATTICE,SMOOTH_GROUP_OPEN_FLOOR,SMOOTH_GROUP_WALLS)
+
+/obj/structure/lattice/catwalk/clockwork/Initialize(mapload)
+	. = ..()
+	if(ISODD(x+y))
+		icon = 'icons/obj/smooth_structures/catwalk_clockwork_large.dmi'
+		pixel_x = -9
+		pixel_y = -9
+	else
+		icon = 'icons/obj/smooth_structures/catwalk_clockwork.dmi'
+		pixel_x = 0
+		pixel_y = 0
+
+/obj/structure/lattice/catwalk/clockwork/indestructible

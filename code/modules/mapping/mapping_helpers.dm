@@ -86,6 +86,10 @@
 	name = "lavaland baseturf editor"
 	baseturf = /turf/open/lava/smooth/lava_land_surface
 
+/obj/effect/baseturf_helper/reebe
+	name = "reebe baseturf editor"
+	baseturf = /turf/open/indestructible/reebe_void
+
 
 /obj/effect/mapping_helpers
 	icon = 'icons/effects/mapping_helpers.dmi'
