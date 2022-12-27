@@ -55,6 +55,21 @@
 	stored_research = new /datum/techweb/specialized/autounlocking/autolathe
 	matching_designs = list()
 
+	// Static list of jobs who get a unique examine hint.
+	var/static/list/already_making_an_autolathe_roundstart = list(
+		/datum/job/scientist,
+		/datum/job/engineer,
+		/datum/job/cargo_tech,
+		/datum/job/roboticist,
+	)
+
+	AddElement(/datum/element/unique_examine, \
+		desc = "Science can load up additional designs from the research server into autolathes. \
+			While unable to be connected to the Ore Silo, this is an effective emergency tool for producing items - \
+			or conveinence for the end user.", \
+		desc_requirement = EXAMINE_CHECK_JOB, \
+		requirements = already_making_an_autolathe_roundstart)
+
 /obj/machinery/autolathe/Destroy()
 	QDEL_NULL(wires)
 	return ..()

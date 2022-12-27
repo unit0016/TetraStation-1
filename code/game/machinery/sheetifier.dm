@@ -15,6 +15,13 @@
 	. = ..()
 	AddComponent(/datum/component/material_container, list(/datum/material/meat), MINERAL_MATERIAL_AMOUNT * MAX_STACK_SIZE * 2, TRUE, /obj/item/reagent_containers/food/snacks/meat/slab, CALLBACK(src, .proc/CanInsertMaterials), CALLBACK(src, .proc/AfterInsertMaterials))
 
+	var/static/list/our_father = list(/datum/job/chaplain)
+
+	AddElement(/datum/element/unique_examine, \
+		desc = "Concerningly, this machine accepts raw meat.", \
+		desc_requirement = EXAMINE_CHECK_JOB, \
+		requirements = our_father)
+
 /obj/machinery/sheetifier/update_overlays()
 	. = ..()
 	if(machine_stat & (BROKEN|NOPOWER))

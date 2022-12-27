@@ -16521,10 +16521,6 @@
 	},
 /turf/open/floor/plasteel/dark/textured,
 /area/quartermaster/qm)
-"oFW" = (
-/mob/living/simple_animal/parrot/poly,
-/turf/open/floor/engine/hull/reinforced,
-/area/space/nearstation)
 "oHO" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -115868,7 +115864,7 @@ afu
 aSr
 sEm
 aaZ
-oFW
+eLx
 aSg
 lFz
 akQ

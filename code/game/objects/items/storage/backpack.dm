@@ -443,6 +443,23 @@
 	slowdown = 0
 	resistance_flags = FIRE_PROOF
 
+/obj/item/storage/backpack/duffelbag/syndie/Initialize(mapload)
+	. = ..()
+
+	var/static/list/our_boys_in_red = list(/datum/antagonist/traitor, /datum/antagonist/nukeop)
+
+	AddElement(/datum/element/unique_examine, \
+		desc = "Made out in the color scheme of The Syndicate, this bag is specially designed \
+			not only for storage capacity, but silent and unburdening storage. Additionally, it's been woven \
+			with fireproof fibres for an added layer of protection.", \
+		desc_requirement = EXAMINE_CHECK_ANTAG, \
+		requirements = our_boys_in_red, \
+		hint = FALSE)
+
+	AddElement(/datum/element/unique_examine, \
+		desc = "It's using The Syndicate's signature palate.", \
+		desc_requirement = EXAMINE_CHECK_MINDSHIELD)
+
 /obj/item/storage/backpack/duffelbag/syndie/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)

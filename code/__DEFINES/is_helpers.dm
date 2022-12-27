@@ -170,6 +170,8 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 
 #define ismachinery(A) (istype(A, /obj/machinery))
 
+#define iscomputer(A) (istype(A, /obj/machinery/computer))
+
 #define ismecha(A) (istype(A, /obj/mecha))
 
 #define ismopable(A) (A && (A.layer <= HIGH_SIGIL_LAYER)) //If something can be cleaned by floor-cleaning devices such as mops or clean bots
@@ -185,6 +187,8 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 #define isprojectile(A) (istype(A, /obj/projectile))
 
 #define isgun(A) (istype(A, /obj/item/gun))
+
+#define ismelee(A) (istype(A, /obj/item/melee)) // Does not guarantee this is a weapon, oddly
 
 //Assemblies
 #define isassembly(O) (istype(O, /obj/item/assembly))

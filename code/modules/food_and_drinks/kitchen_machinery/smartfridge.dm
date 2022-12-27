@@ -31,6 +31,20 @@
 			for(var/i in 1 to amount)
 				load(new typekey(src))
 
+	var/static/list/doctors = list(
+		/datum/job/cmo,
+		/datum/job/doctor,
+		/datum/job/paramedic,
+	)
+
+	AddElement(/datum/element/unique_examine, \
+		desc = "The science department is able to upgrade these fridges to both improve \
+			storage capacity and repair damaged organs. Although slow, the repairs Smartfridges offer can \
+			bring back even entirely destroyed organs.", \
+		desc_requirement = EXAMINE_CHECK_JOB, \
+		requirements = doctors)
+
+
 /obj/machinery/smartfridge/RefreshParts()
 	for(var/obj/item/stock_parts/matter_bin/B in component_parts)
 		max_n_of_items = 1500 * B.rating

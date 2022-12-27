@@ -10,6 +10,20 @@
 	ex_light = 4
 	ex_flame = 2
 
+
+/obj/item/grenade/syndieminibomb/Initialize(mapload)
+	. = ..()
+
+	var/static/list/our_boys_in_red = list(/datum/antagonist/traitor, /datum/antagonist/nukeop)
+
+	AddElement(/datum/element/unique_examine, \
+		desc = "A shock explosive meant to be used to deter and demoralize the enemy. \
+			While offensively effective, it is also dangerous to use in close quarters and shouldn't \
+			be solely relied upon for killing personnel.", \
+		desc_requirement = EXAMINE_CHECK_ANTAG, \
+		requirements = our_boys_in_red, \
+		hint = FALSE)
+
 /obj/item/grenade/syndieminibomb/prime(mob/living/lanced_by)
 	. = ..()
 	update_mob()
