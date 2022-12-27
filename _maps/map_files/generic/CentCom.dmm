@@ -18291,6 +18291,13 @@
 /obj/effect/turf_decal/tile/bar/whole,
 /turf/open/floor/plasteel/dark/whole,
 /area/syndicate_mothership/control)
+"RE" = (
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/indestructible/reebe_void/spawning,
+/area/wizard_station)
 "RJ" = (
 /mob/living/simple_animal/crab{
 	name = "Jon"
@@ -31988,25 +31995,25 @@ aa
 vn
 wN
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+wN
 DR
 wN
 DR
 DR
+wN
+DR
+wN
+DR
+wN
+DR
+wN
+DR
+wN
 DR
 DR
+wN
 DR
-DR
-DR
-DR
-DR
+wN
 DR
 wN
 vn
@@ -32500,7 +32507,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 DR
 wN
 DR
@@ -32522,7 +32529,7 @@ DR
 DR
 wN
 DR
-DR
+wN
 vn
 "}
 (49,1,1) = {"
@@ -33014,7 +33021,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 DR
 DR
 DR
@@ -33036,7 +33043,7 @@ DR
 DR
 DR
 DR
-DR
+wN
 vn
 "}
 (51,1,1) = {"
@@ -33281,9 +33288,9 @@ DR
 DR
 DR
 DR
-DR
+wN
 Bf
-DR
+wN
 DR
 DR
 DR
@@ -33785,7 +33792,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 BS
 DR
 DR
@@ -33807,7 +33814,7 @@ BS
 DR
 DR
 lI
-DR
+wN
 vn
 "}
 (54,1,1) = {"
@@ -34299,7 +34306,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 DR
 DR
 BS
@@ -34321,7 +34328,7 @@ lI
 DR
 DR
 DR
-DR
+wN
 vn
 "}
 (56,1,1) = {"
@@ -34561,7 +34568,7 @@ DR
 DR
 DR
 DR
-DR
+wN
 Bf
 DR
 yF
@@ -34573,7 +34580,7 @@ DZ
 Eh
 DR
 Bf
-DR
+wN
 DR
 DR
 BS
@@ -35075,7 +35082,7 @@ DR
 DR
 DR
 DR
-DR
+wN
 Bf
 DR
 tX
@@ -35087,7 +35094,7 @@ Ea
 Ej
 DR
 Bf
-DR
+wN
 DR
 DR
 DR
@@ -35327,7 +35334,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 DR
 DR
 BS
@@ -35349,7 +35356,7 @@ DR
 DR
 DR
 BS
-DR
+wN
 vn
 "}
 (60,1,1) = {"
@@ -35841,7 +35848,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 BS
 BS
 lI
@@ -35863,7 +35870,7 @@ lI
 DR
 DR
 DR
-DR
+wN
 vn
 "}
 (62,1,1) = {"
@@ -36365,9 +36372,9 @@ DR
 DR
 DR
 DR
-DR
+wN
 Bf
-DR
+wN
 DR
 DR
 lI
@@ -36612,7 +36619,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 BS
 DR
 DR
@@ -36634,7 +36641,7 @@ BS
 DR
 DR
 DR
-lI
+RE
 vn
 "}
 (65,1,1) = {"
@@ -37126,7 +37133,7 @@ aa
 aa
 aa
 vn
-DR
+wN
 DR
 wN
 DR
@@ -37148,7 +37155,7 @@ DR
 DR
 wN
 DR
-DR
+wN
 vn
 "}
 (67,1,1) = {"
@@ -37642,25 +37649,25 @@ aa
 vn
 wN
 DR
+wN
 DR
-DR
-DR
+wN
 DR
 BS
+wN
 DR
+wN
 DR
+wN
 DR
+wN
 DR
 wN
 DR
 DR
+wN
 DR
-DR
-DR
-DR
-DR
-DR
-DR
+wN
 DR
 wN
 vn
