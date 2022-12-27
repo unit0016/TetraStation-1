@@ -7449,13 +7449,13 @@
 /turf/open/floor/bronze,
 /area/wizard_station)
 "ra" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/structure/showcase{
 	desc = "A historical figure of great importance to the wizard federation. He spent his long life learning magic, stealing artifacts, and harassing idiots with swords. May he rest forever, Rodney.";
 	icon = 'icons/mob/mob.dmi';
 	icon_state = "nim";
 	name = "wizard of yendor showcase"
 	},
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "rb" = (
@@ -8861,12 +8861,12 @@
 /turf/open/floor/wood,
 /area/centcom/holding)
 "tX" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/structure/table/bronze,
 /obj/item/radio/intercom{
 	desc = "Talk smack through this.";
 	syndie = 1
 	},
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "tY" = (
@@ -9196,8 +9196,8 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "uC" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/structure/punching_bag,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "uD" = (
@@ -9882,8 +9882,8 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "wb" = (
-/obj/structure/lattice/clockwork,
 /obj/machinery/light/dim,
+/obj/structure/lattice/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "wd" = (
@@ -10150,14 +10150,21 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "wN" = (
-/obj/structure/door_assembly/door_assembly_bronze,
-/turf/open/indestructible/reebe_void/spawning/lattices,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "wR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership/control)
+"wS" = (
+/obj/structure/door_assembly/door_assembly_bronze/seethru,
+/turf/open/indestructible/reebe_void/spawning/lattices,
+/area/wizard_station)
 "wT" = (
 /obj/machinery/washing_machine,
 /obj/effect/turf_decal/tile/blue{
@@ -10360,19 +10367,19 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "xu" = (
-/obj/structure/lattice/clockwork,
 /obj/machinery/light/dim{
 	dir = 4
 	},
+/obj/structure/lattice/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "xv" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/structure/rack,
 /obj/item/clothing/shoes/sandal/magic,
 /obj/item/clothing/suit/wizrobe/red,
 /obj/item/clothing/head/wizard/red,
 /obj/item/staff,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "xA" = (
@@ -10799,8 +10806,8 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "yF" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/machinery/computer/camera_advanced,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "yG" = (
@@ -11280,7 +11287,6 @@
 /turf/open/floor/plating/abductor2,
 /area/wizard_station)
 "zP" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/structure/rack,
 /obj/item/clothing/suit/wizrobe/magusred,
 /obj/item/clothing/suit/wizrobe/magusblue,
@@ -11288,6 +11294,7 @@
 /obj/item/clothing/head/wizard/magus,
 /obj/item/staff,
 /obj/item/staff,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "zR" = (
@@ -11596,6 +11603,13 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/syndicate_mothership/control)
+"AF" = (
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/indestructible/reebe_void/spawning/lattices,
+/area/wizard_station)
 "AG" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -13151,13 +13165,17 @@
 	},
 /obj/item/kitchen/knife/ritual,
 /obj/machinery/light/floor,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
 /turf/open/floor/plating/abductor2,
 /area/wizard_station)
 "DD" = (
-/obj/structure/lattice/clockwork,
 /obj/machinery/light/dim{
 	dir = 8
 	},
+/obj/structure/lattice/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "DF" = (
@@ -13260,7 +13278,7 @@
 /turf/open/floor/bronze,
 /area/wizard_station)
 "DO" = (
-/obj/structure/lattice/catwalk/clockwork,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "DR" = (
@@ -13372,8 +13390,8 @@
 /turf/open/floor/bronze,
 /area/wizard_station)
 "Ed" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/item/skub,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "Eg" = (
@@ -13384,17 +13402,17 @@
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "Eh" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/machinery/vending/magivend,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "Ej" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/item/clothing/shoes/sandal/marisa,
 /obj/item/clothing/suit/wizrobe/marisa,
 /obj/item/clothing/head/wizard/marisa,
 /obj/item/staff/broom,
 /obj/structure/closet/cabinet,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "Ek" = (
@@ -13517,10 +13535,10 @@
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
 "EC" = (
-/obj/structure/lattice/clockwork,
 /obj/machinery/light/dim{
 	dir = 1
 	},
+/obj/structure/lattice/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "ED" = (
@@ -13708,10 +13726,10 @@
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeobserve)
 "EX" = (
-/obj/structure/lattice/catwalk/clockwork,
 /obj/structure/table/bronze,
 /obj/item/storage/bag/tray,
 /obj/item/reagent_containers/food/snacks/burger/spell,
+/obj/structure/lattice/catwalk/clockwork/indestructible,
 /turf/open/indestructible/reebe_void,
 /area/wizard_station)
 "EY" = (
@@ -18975,6 +18993,10 @@
 	icon_state = "white"
 	},
 /area/holodeck/rec_center/medical)
+"UD" = (
+/obj/structure/lattice/clockwork/indestructible,
+/turf/open/indestructible/reebe_void,
+/area/wizard_station)
 "UE" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
@@ -31964,6 +31986,7 @@ aa
 aa
 aa
 vn
+wN
 DR
 DR
 DR
@@ -31974,6 +31997,7 @@ DR
 DR
 DR
 DR
+wN
 DR
 DR
 DR
@@ -31984,9 +32008,7 @@ DR
 DR
 DR
 DR
-DR
-DR
-DR
+wN
 vn
 "}
 (47,1,1) = {"
@@ -32225,20 +32247,20 @@ DR
 DR
 DR
 DR
+BS
+DR
+DR
+BS
+BS
+DR
+DR
+DO
 DR
 DR
 DR
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+BS
 DR
 DR
 DR
@@ -32480,25 +32502,25 @@ aa
 vn
 DR
 DR
+wN
 DR
 DR
 DR
 DR
+BS
+DR
+DR
+DR
+DO
+DR
+DR
+BS
+BS
 DR
 DR
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+wN
 DR
 DR
 vn
@@ -32736,28 +32758,28 @@ aa
 aa
 vn
 DR
+lI
+DR
+wN
+DR
+BS
 DR
 DR
+lI
 DR
 DR
+wN
+DR
+BS
+BS
 DR
 DR
+lI
+DR
+wN
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+lI
 vn
 "}
 (50,1,1) = {"
@@ -33005,7 +33027,7 @@ DR
 DR
 Bf
 DR
-DR
+lI
 DR
 DR
 DR
@@ -33250,11 +33272,11 @@ aa
 aa
 vn
 DR
+wN
 DR
+BS
 DR
-DR
-DR
-DR
+wN
 DR
 DR
 DR
@@ -33266,11 +33288,11 @@ DR
 DR
 DR
 DR
+wN
 DR
+BS
 DR
-DR
-DR
-DR
+wN
 DR
 vn
 "}
@@ -33508,14 +33530,14 @@ aa
 vn
 DR
 DR
+wN
 DR
 DR
 DR
 Bf
 DR
 DR
-DR
-DR
+lI
 Bf
 Bf
 Bf
@@ -33524,9 +33546,9 @@ DR
 DR
 Bf
 DR
-DR
-DR
-DR
+BS
+BS
+wN
 DR
 DR
 vn
@@ -33764,27 +33786,27 @@ aa
 aa
 vn
 DR
+BS
 DR
 DR
-DR
+lI
 DR
 DR
 Bf
-BS
-DR
+UD
 DR
 DR
 xu
 DR
 DR
-BS
+UD
 Bf
 DR
 DR
+BS
 DR
 DR
-DR
-DR
+lI
 DR
 vn
 "}
@@ -34024,10 +34046,10 @@ DR
 DR
 DR
 DR
+wN
+wN
 DR
-DR
-BS
-DR
+UD
 DR
 DR
 EX
@@ -34035,10 +34057,10 @@ Bf
 ra
 DR
 DR
-lI
+UD
 DR
-DR
-DR
+wN
+wN
 DR
 DR
 DR
@@ -34280,7 +34302,7 @@ vn
 DR
 DR
 DR
-DR
+BS
 DR
 DR
 DR
@@ -34295,7 +34317,7 @@ DR
 DR
 DR
 DR
-DR
+lI
 DR
 DR
 DR
@@ -34554,7 +34576,7 @@ Bf
 DR
 DR
 DR
-DR
+BS
 DR
 DR
 vn
@@ -34791,10 +34813,10 @@ aa
 aa
 aa
 vn
-DR
-DR
-DR
-DR
+wN
+DO
+DO
+wN
 Bf
 Bf
 Bf
@@ -34810,10 +34832,10 @@ EC
 Bf
 Bf
 Bf
-DR
-DR
-DR
-DR
+wN
+DO
+DO
+wN
 vn
 "}
 (58,1,1) = {"
@@ -35069,7 +35091,7 @@ DR
 DR
 DR
 DR
-DR
+BS
 DR
 vn
 "}
@@ -35308,7 +35330,7 @@ vn
 DR
 DR
 DR
-DR
+BS
 DR
 DR
 DR
@@ -35326,7 +35348,7 @@ DR
 DR
 DR
 DR
-DR
+BS
 DR
 vn
 "}
@@ -35564,12 +35586,12 @@ aa
 vn
 DR
 DR
-DR
-DR
-DR
+BS
 DR
 wN
+wN
 DR
+UD
 DR
 DR
 xv
@@ -35577,11 +35599,11 @@ Bf
 DO
 DR
 DR
-BS
+UD
 DR
-DR
-DR
-DR
+wN
+wN
+lI
 DR
 DR
 DR
@@ -35820,24 +35842,24 @@ aa
 aa
 vn
 DR
-DR
-DR
+BS
+BS
+lI
 DR
 DR
 DR
 Bf
-BS
-DR
+UD
 DR
 DR
 DD
 DR
 DR
-lI
+UD
 Bf
 DR
 DR
-DR
+lI
 DR
 DR
 DR
@@ -36079,25 +36101,25 @@ vn
 DR
 DR
 DR
+wN
+DR
+DR
+Bf
+DR
+DR
+lI
+Bf
+Bf
+Bf
+DR
 DR
 DR
 Bf
 DR
 DR
 DR
-DR
-Bf
-Bf
-Bf
-DR
-DR
-DR
-Bf
-DR
-DR
-DR
-DR
-DR
+wN
+BS
 DR
 vn
 "}
@@ -36335,10 +36357,10 @@ aa
 vn
 DR
 DR
+AF
+BS
 DR
-DR
-DR
-DR
+wN
 DR
 DR
 DR
@@ -36348,13 +36370,13 @@ Bf
 DR
 DR
 DR
+lI
+DR
+wN
 DR
 DR
 DR
-DR
-DR
-DR
-DR
+wN
 DR
 vn
 "}
@@ -36591,7 +36613,7 @@ aa
 aa
 vn
 DR
-DR
+BS
 DR
 DR
 DR
@@ -36603,16 +36625,16 @@ DR
 DR
 Bf
 DR
+lI
 DR
 DR
 DR
 DR
+BS
 DR
 DR
 DR
-DR
-DR
-DR
+lI
 vn
 "}
 (65,1,1) = {"
@@ -36850,23 +36872,23 @@ vn
 DR
 DR
 DR
+wN
+DR
+DR
+DR
+wS
+BS
+DR
+DR
+wN
 DR
 DR
 DR
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+BS
+BS
+wN
 DR
 DR
 DR
@@ -37106,25 +37128,25 @@ aa
 vn
 DR
 DR
+wN
 DR
 DR
 DR
 DR
 DR
+BS
+DR
+DR
+DO
+DR
+DR
+BS
+BS
 DR
 DR
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+wN
 DR
 DR
 vn
@@ -37364,22 +37386,22 @@ vn
 DR
 DR
 DR
+lI
+DR
+DR
+BS
 DR
 DR
 DR
+lI
+DO
+DR
+DR
+BS
 DR
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+lI
 DR
 DR
 DR
@@ -37618,6 +37640,18 @@ aa
 aa
 aa
 vn
+wN
+DR
+DR
+DR
+DR
+DR
+BS
+DR
+DR
+DR
+DR
+wN
 DR
 DR
 DR
@@ -37628,19 +37662,7 @@ DR
 DR
 DR
 DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
-DR
+wN
 vn
 "}
 (69,1,1) = {"
