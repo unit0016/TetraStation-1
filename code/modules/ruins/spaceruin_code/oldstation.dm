@@ -1,12 +1,24 @@
 ///////////	Oldstation items
 
-/obj/item/paper/fluff/ruins/oldstation
-	name = "Cryo Awakening Alert"
-	info = "<B>**WARNING**</B><BR><BR>Catastrophic damage sustained to station. Powernet exhausted to reawaken crew.<BR><BR>Immediate Objectives<br><br>1: Activate emergency power generator<br>2: Lift station lockdown on the bridge<br><br>Please locate the 'Damage Report' on the bridge for a detailed situation report."
+/obj/machinery/computer/terminal/oldstation/cryo
+	name = "Cryopod Console"
+	contents = list("<B>**WARNING**</B><BR><BR>Catastrophic damage sustained to station. Powernet exhausted to reawaken crew.<BR><BR>Immediate Objectives<br><br>\
+	1: Activate emergency power generator<br>2: Lift station lockdown on the bridge<br><br>Please locate the 'Damage Report' on the bridge for a detailed situation report.")
 
-/obj/item/paper/fluff/ruins/oldstation/damagereport
-	name = "Damage Report"
-	info = "<b>*Damage Report*</b><br><br><b>Alpha Station</b> - Destroyed<br><br><b>Beta Station</b> - Catastrophic Damage. Medical, destroyed. Atmospherics, partially destroyed. Engine Core, destroyed.<br><br><b>Charlie Station</b> - Multiple asteroid impacts, no loss in air pressure.<br><br><b>Delta Station</b> - Intact. <b>WARNING</b>: Unknown force occupying Delta Station. Intent unknown. Species unknown. Numbers unknown.<br><br>Recommendation - Reestablish station powernet via solar array. Reestablish station atmospherics system to restore air."
+/// Nanotrasen locking this behind the power being on is incredibly funny, actually.
+/obj/machinery/computer/terminal/oldstation/damagereport
+	name = "Station Alert Console"
+	contents = list("<b>*Damage Report*</b><br><br><b>Alpha Station</b> - Destroyed<br><br><b>Beta Station</b> - Catastrophic Damage. Medical, destroyed. Atmospherics, partially destroyed. Engine Core, destroyed.<br><br>\
+	<b>Charlie Station</b> - Multiple asteroid impacts, no loss in air pressure.<br><br><b>Delta Station</b> - Intact. \<b>WARNING</b>: Unknown force occupying Delta Station. Intent unknown. Species unknown. Numbers unknown.\
+	<br><br>Recommendation - Reestablish station powernet via solar array. Reestablish station atmospherics system to restore air.")
+
+/obj/machinery/computer/terminal/oldstation/report
+	name = "Communications Console"
+	contents = list("Artificial Program's report to surviving crewmembers.<br><br>Crew were placed into cryostasis on March 10th, 2445.<br><br>Crew were awoken from cryostasis around June, 2557.<br><br> \
+	<b>SIGNIFICANT EVENTS OF NOTE</b><br>1: The primary radiation detectors were taken offline after 112 years due to power failure, secondary radiation detectors showed no residual \
+	radiation on station. Deduction, primarily detector was malfunctioning and was producing a radiation signal when there was none.<br><br>2: A data burst from a nearby Nanotrasen Space \
+	Station was received, this data burst contained research data that has been uploaded to our RnD labs.<br><br>3: An unknown force has occupied Delta station. Additionally, a school of common space carp have \
+	taken refuge in the space surrounding all remaining stations, primarily Beta station.")
 
 /obj/item/paper/fluff/ruins/oldstation/protosuit
 	name = "B01-RIG Hardsuit Report"
@@ -40,14 +52,6 @@
 	name = "Laboratory Inventory"
 	info = "<b>*Inventory*</b><br><br>(1) Prototype Hardsuit<br><br>(1)Health Analyser<br><br>(1)Prototype Energy Gun<br><br>(1)Singularity Generation Disk<br><br><b>DO NOT REMOVE WITHOUT \
 	THE CAPTAIN AND RESEARCH DIRECTOR'S AUTHORISATION</b>"
-
-/obj/item/paper/fluff/ruins/oldstation/report
-	name = "Crew Reawakening Report"
-	info = "Artificial Program's report to surviving crewmembers.<br><br>Crew were placed into cryostasis on March 10th, 2445.<br><br>Crew were awoken from cryostasis around June, 2557.<br><br> \
-	<b>SIGNIFICANT EVENTS OF NOTE</b><br>1: The primary radiation detectors were taken offline after 112 years due to power failure, secondary radiation detectors showed no residual \
-	radiation on station. Deduction, primarily detector was malfunctioning and was producing a radiation signal when there was none.<br><br>2: A data burst from a nearby Nanotrasen Space \
-	Station was received, this data burst contained research data that has been uploaded to our RnD labs.<br><br>3: An unknown force has occupied Delta station. Additionally, a school of common space carp have \
-	taken refuge in the space surrounding all remaining stations, primarily Beta station. "
 
 /obj/item/paper/fluff/ruins/oldstation/generator_manual
 	name = "S.U.P.E.R.P.A.C.M.A.N.-type portable generator manual"

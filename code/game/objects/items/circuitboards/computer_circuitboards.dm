@@ -40,12 +40,6 @@
 	..()
 	to_chat(user, "<span class='notice'>Currently set to \"[dept_list[target_dept]]\".</span>")
 
-
-//obj/item/circuitboard/computer/shield
-//	name = "Shield Control (Computer Board)"
-//	icon_state = "command"
-//	build_path = /obj/machinery/computer/stationshield
-
 //Engineering
 
 /obj/item/circuitboard/computer/apc_control
@@ -269,6 +263,10 @@
 /obj/item/circuitboard/computer/bountypad
 	name = "Bounty Pad (Computer Board)"
 	build_path = /obj/machinery/computer/piratepad_control/civilian
+
+/obj/item/circuitboard/computer/terminal
+	name = "Terminal (Computer Board)"
+	build_path = /obj/machinery/computer/terminal
 
 //Medical
 
