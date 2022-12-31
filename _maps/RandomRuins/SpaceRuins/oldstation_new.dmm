@@ -90,10 +90,8 @@
 /obj/structure/table,
 /obj/item/trash/plate,
 /obj/item/kitchen/fork,
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
-/turf/open/floor/plasteel/half,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "gO" = (
 /obj/structure/table,
@@ -189,10 +187,8 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
-/turf/open/floor/plasteel/half,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "lJ" = (
 /obj/structure/lattice/catwalk/over,
@@ -298,12 +294,10 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
-/turf/open/floor/plasteel/half,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "rL" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -354,11 +348,9 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/half,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "vD" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
@@ -436,10 +428,8 @@
 	pixel_x = 5;
 	pixel_y = 14
 	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
-/turf/open/floor/plasteel/half,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "zL" = (
 /turf/closed/wall,
@@ -834,6 +824,9 @@
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance/external{
 	name = "Beta Station Access"
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/template_noop)
