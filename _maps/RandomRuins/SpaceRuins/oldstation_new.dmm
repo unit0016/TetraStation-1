@@ -18,6 +18,9 @@
 	name = "Engineering External Access"
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
 /turf/open/floor/plasteel/half{
 	dir = 4
 	},
@@ -28,6 +31,9 @@
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
 /turf/open/floor/plasteel/half{
 	dir = 4
 	},
@@ -66,6 +72,12 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"dD" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
 "dY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
@@ -78,16 +90,39 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/edge,
 /area/template_noop)
+"er" = (
+/obj/structure/lattice/catwalk/over,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
 "eM" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
 /turf/open/floor/grass,
 /area/template_noop)
+"eR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/open,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
 "eS" = (
 /turf/open/floor/plasteel/edge{
 	dir = 8
 	},
+/area/template_noop)
+"fd" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Charlie Station Access"
+	},
+/turf/open/floor/plating,
 /area/template_noop)
 "fP" = (
 /obj/effect/turf_decal/siding/white{
@@ -97,6 +132,16 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
+/area/template_noop)
+"fT" = (
+/obj/structure/lattice/catwalk/over,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/foamedmetal/iron,
+/turf/open/floor/plating,
 /area/template_noop)
 "fU" = (
 /obj/machinery/door/airlock/security{
@@ -156,6 +201,23 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/cafeteria,
 /area/template_noop)
+"ib" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/cable,
+/turf/open/floor/plasteel/half{
+	dir = 4
+	},
+/area/template_noop)
+"ie" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/suit_storage_unit/open,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
 "ik" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -164,6 +226,12 @@
 /turf/open/floor/plasteel/edge{
 	dir = 4
 	},
+/area/template_noop)
+"im" = (
+/obj/structure/lattice/catwalk/over,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
 /area/template_noop)
 "iz" = (
 /obj/structure/closet/crate/bin,
@@ -287,6 +355,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel/half{
 	dir = 4
 	},
@@ -332,6 +401,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/grass,
 /area/template_noop)
+"ok" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/directional{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "ox" = (
 /obj/effect/turf_decal/tile/blue/half{
 	dir = 4
@@ -372,6 +447,13 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"pF" = (
+/obj/structure/lattice/catwalk/over,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/foamedmetal/iron,
+/turf/open/floor/plating,
+/area/template_noop)
 "pV" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 10
@@ -388,6 +470,20 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/anticorner,
+/area/template_noop)
+"qv" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/half{
+	dir = 4
+	},
 /area/template_noop)
 "re" = (
 /obj/machinery/power/smes/engineering{
@@ -514,6 +610,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/edge,
 /area/template_noop)
+"wM" = (
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"wP" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/half{
+	dir = 4
+	},
+/area/template_noop)
 "wX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -544,6 +651,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel/half{
 	dir = 4
 	},
@@ -556,6 +665,14 @@
 /turf/open/floor/plasteel/anticorner{
 	dir = 8
 	},
+/area/template_noop)
+"xY" = (
+/obj/structure/lattice/catwalk/over,
+/obj/machinery/power/smes/engineering{
+	charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/template_noop)
 "yu" = (
 /obj/structure/table,
@@ -632,6 +749,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/over,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "AM" = (
@@ -639,6 +757,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "Bl" = (
@@ -662,6 +781,7 @@
 "BL" = (
 /obj/machinery/suit_storage_unit/open,
 /obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "Cg" = (
@@ -674,6 +794,16 @@
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
 	dir = 4
 	},
+/turf/open/floor/plating,
+/area/template_noop)
+"CD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "CG" = (
@@ -760,6 +890,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/edge,
 /area/template_noop)
+"FL" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/over,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
 "GP" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Bridge"
@@ -826,6 +965,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "Ji" = (
@@ -841,8 +981,28 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/grass,
 /area/template_noop)
+"JU" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
 "Ka" = (
 /turf/open/floor/plasteel/mil/ntlogo/nt3,
+/area/template_noop)
+"Km" = (
+/obj/structure/cable,
+/turf/open/floor/plasteel/half/airless{
+	dir = 4
+	},
+/area/template_noop)
+"Kw" = (
+/obj/structure/lattice/catwalk/over,
+/obj/machinery/power/smes/engineering{
+	charge = 0
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
 /area/template_noop)
 "LG" = (
 /obj/effect/mob_spawn/human/oldeng{
@@ -873,6 +1033,14 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mil,
+/area/template_noop)
+"Ml" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/frame/computer,
+/turf/open/floor/plating,
 /area/template_noop)
 "Mr" = (
 /obj/machinery/computer/crew,
@@ -952,6 +1120,20 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/cafeteria,
 /area/template_noop)
+"PA" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable,
+/turf/open/floor/plasteel/half{
+	dir = 4
+	},
+/area/template_noop)
 "PE" = (
 /turf/open/floor/plasteel,
 /area/template_noop)
@@ -994,6 +1176,12 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"TN" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "TS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1006,6 +1194,11 @@
 /obj/machinery/door/airlock/maintenance/external{
 	name = "Delta Station Access"
 	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "Ur" = (
@@ -1077,6 +1270,7 @@
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/template_noop)
 "VS" = (
@@ -1104,6 +1298,13 @@
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
 /turf/open/floor/plating,
+/area/template_noop)
+"Wl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/plasteel/half{
+	dir = 4
+	},
 /area/template_noop)
 "Wy" = (
 /obj/machinery/light/small{
@@ -30086,7 +30287,7 @@ OE
 OE
 OE
 lc
-oY
+JU
 lc
 OE
 OE
@@ -30343,7 +30544,7 @@ OE
 It
 Ch
 mQ
-oY
+JU
 vD
 Ch
 ng
@@ -30600,7 +30801,7 @@ Ch
 zL
 Ao
 mU
-oY
+JU
 BL
 Ao
 zL
@@ -30852,17 +31053,17 @@ uA
 uA
 tw
 xs
-un
+wP
 un
 bq
 OK
 IY
 oY
 oy
-OK
+FL
 mK
-un
-un
+wP
+wP
 by
 tw
 uA
@@ -31111,10 +31312,10 @@ OE
 zL
 Ch
 Ch
-zL
+vQ
 re
 AM
-oY
+JU
 Qu
 re
 zL
@@ -31628,7 +31829,7 @@ OE
 OE
 OE
 lc
-oY
+JU
 lc
 OE
 OE
@@ -31885,7 +32086,7 @@ OE
 OE
 OE
 lc
-oY
+JU
 lc
 OE
 OE
@@ -37024,9 +37225,9 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
+lc
+JU
+lc
 OE
 OE
 OE
@@ -37281,9 +37482,9 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
+lc
+JU
+lc
 OE
 OE
 OE
@@ -37536,13 +37737,13 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+It
+Ch
+mQ
+oY
+vD
+Ch
+ng
 OE
 OE
 OE
@@ -37790,19 +37991,19 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+zL
+ok
+TN
+zL
+xY
+Ml
+JU
+dD
+Kw
+zL
+Ch
+Ch
+zL
 OE
 OE
 OE
@@ -38047,21 +38248,21 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+wM
+Km
+Km
+ib
+fT
+CD
+JU
+oy
+er
+PA
+Wl
+un
+qv
+tw
+gs
 OE
 OE
 OE
@@ -38305,18 +38506,18 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+gs
+TN
+zL
+pF
+eR
+JU
+ie
+im
+zL
+Ch
+Ch
+zL
 OE
 OE
 OE
@@ -38564,13 +38765,13 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+vD
+Ch
+ng
+oY
+It
+Ch
+mQ
 OE
 OE
 OE
@@ -38823,9 +39024,9 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
+lc
+JU
+lc
 OE
 OE
 OE
@@ -39080,9 +39281,9 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
+lc
+JU
+lc
 OE
 OE
 OE
@@ -39337,9 +39538,9 @@ OE
 OE
 OE
 OE
-OE
-OE
-OE
+zL
+fd
+zL
 OE
 OE
 OE
