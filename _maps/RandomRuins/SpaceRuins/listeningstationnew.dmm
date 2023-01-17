@@ -17,6 +17,26 @@
 	},
 /turf/open/floor/plasteel/dark/edge,
 /area/ruin/space/has_grav/listeningstation)
+"d" = (
+/obj/machinery/door/airlock{
+	name = "Medbay"
+	},
+/turf/open/floor/plasteel/textured,
+/area/ruin/space/has_grav/listeningstation)
+"e" = (
+/obj/item/bombcore/badmin{
+	anchored = 1;
+	invisibility = 100
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/listeningstation)
+"f" = (
+/obj/machinery/iv_drip,
+/obj/effect/turf_decal/tile/green/half/contrast{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/listeningstation)
 "g" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/stripes/red/line,
@@ -62,6 +82,18 @@
 "l" = (
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered/no_grav)
+"m" = (
+/obj/machinery/vending/snack/random{
+	extended_inventory = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/listeningstation)
 "n" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/sand/plating,
@@ -73,6 +105,19 @@
 "q" = (
 /turf/template_noop,
 /area/template_noop)
+"r" = (
+/obj/structure/closet/secure_closet/medical1{
+	req_access = null;
+	req_access_txt = "150"
+	},
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/green{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/listeningstation)
 "s" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/hatch{
@@ -80,6 +125,21 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel/dark/textured,
+/area/ruin/space/has_grav/listeningstation)
+"t" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/blood/o_minus{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/blood/o_minus,
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/green{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/listeningstation)
 "u" = (
 /obj/structure/table,
@@ -90,10 +150,23 @@
 /obj/item/stock_parts/cell/high/plus,
 /turf/open/floor/plasteel/dark/edge,
 /area/ruin/space/has_grav/listeningstation)
+"v" = (
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/listeningstation)
 "w" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/listeningstation)
+"x" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/obj/effect/turf_decal/tile/green/half/contrast{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/listeningstation)
 "y" = (
 /obj/docking_port/stationary{
@@ -106,6 +179,23 @@
 	},
 /turf/template_noop,
 /area/template_noop)
+"z" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/no_grav)
+"A" = (
+/obj/structure/rack,
+/obj/item/storage/firstaid/regular,
+/obj/item/clothing/neck/stethoscope,
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/green{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/listeningstation)
 "B" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -114,6 +204,19 @@
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
 /area/ruin/unpowered/no_grav)
+"C" = (
+/obj/machinery/door/window/brigdoor{
+	req_access_txt = "150"
+	},
+/obj/machinery/syndicatebomb/self_destruct{
+	anchored = 1
+	},
+/obj/structure/sign/warning/explosives{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/circuit/red,
+/area/ruin/space/has_grav/listeningstation)
 "D" = (
 /obj/structure/cable,
 /turf/open/floor/plating/asteroid/airless,
@@ -128,6 +231,13 @@
 /area/ruin/space/has_grav/listeningstation)
 "G" = (
 /turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/listeningstation)
+"H" = (
+/obj/structure/bed,
+/obj/effect/turf_decal/trimline/green/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/listeningstation)
 "I" = (
 /obj/machinery/door/airlock/external{
@@ -157,10 +267,38 @@
 /obj/structure/flora/rock,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered/no_grav)
+"N" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/listeningstation)
+"O" = (
+/obj/structure/sign/departments/medbay/alt{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/listeningstation)
+"P" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/listeningstation)
+"Q" = (
+/obj/machinery/vending/cola/random{
+	extended_inventory = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/listeningstation)
 "R" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 9
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_y = -32
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/unpowered/no_grav)
@@ -171,6 +309,9 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/stripes/red/line,
 /obj/structure/chair/comfy/shuttle,
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = 32
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/listeningstation)
 "W" = (
@@ -823,12 +964,12 @@ a
 a
 a
 a
-a
+p
 p
 p
 S
 p
-p
+a
 a
 a
 a
@@ -862,15 +1003,15 @@ a
 a
 a
 a
-a
 p
 p
+m
+Q
 G
-G
-G
 p
 p
-a
+p
+p
 a
 a
 a
@@ -902,15 +1043,15 @@ a
 a
 a
 a
-a
 p
-G
-G
+C
 G
 G
 G
 p
-a
+x
+r
+p
 a
 a
 a
@@ -942,15 +1083,15 @@ a
 a
 a
 a
-a
-S
+p
+p
+P
 G
 G
-G
-G
-G
-S
-a
+d
+v
+t
+p
 a
 a
 a
@@ -983,14 +1124,14 @@ a
 a
 a
 a
+S
+G
+G
+O
 p
-G
-G
-G
-G
-G
+f
+A
 p
-a
 a
 a
 a
@@ -1022,15 +1163,15 @@ a
 a
 a
 a
-a
+z
 p
-p
+e
+N
 G
-G
-G
+p
+H
 p
 p
-a
 a
 a
 a
@@ -1069,7 +1210,7 @@ p
 s
 p
 p
-a
+p
 a
 a
 a
@@ -1109,7 +1250,7 @@ W
 K
 u
 p
-a
+p
 a
 a
 a
