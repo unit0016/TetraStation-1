@@ -10,6 +10,7 @@
 /turf/open/floor/plating
 	name = "plating"
 	icon_state = "plating"
+	intact = FALSE
 	baseturfs = /turf/baseturf_bottom
 	footstep = FOOTSTEP_PLATING
 	barefootstep = FOOTSTEP_HARD_BAREFOOT

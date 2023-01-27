@@ -142,7 +142,7 @@
 
 /turf/open/floor/holofloor/carpet/update_icon()
 	. = ..()
-	if(overfloor_placed)
+	if(intact)
 		QUEUE_SMOOTH(src)
 
 /turf/open/floor/holofloor/wood
