@@ -16,6 +16,9 @@
 	icon_state = "alienpod1"
 	tiled_dirt = FALSE
 
+/turf/open/floor/plating/abductor/setup_broken_states()
+	return list("alienpod1")
+
 /turf/open/floor/plating/abductor/Initialize()
 	. = ..()
 	icon_state = "alienpod[rand(1,9)]"
@@ -136,11 +139,17 @@
 	icon_state = "sand"
 	baseturfs = /turf/open/floor/plating/beach/sand
 
+/turf/open/floor/plating/beach/sand/setup_broken_states()
+	return list("sand")
+
 /turf/open/floor/plating/beach/coastline_t
 	name = "coastline"
 	desc = "Tide's high tonight. Charge your batons."
 	icon_state = "sandwater_t"
 	baseturfs = /turf/open/floor/plating/beach/coastline_t
+
+/turf/open/floor/plating/beach/sand/coastline_t/setup_broken_states()
+	return list("sandwater_t")
 
 /turf/open/floor/plating/beach/coastline_b //need to make this water subtype.
 	name = "coastline"
@@ -150,6 +159,9 @@
 	barefootstep = FOOTSTEP_LAVA
 	clawfootstep = FOOTSTEP_LAVA
 	heavyfootstep = FOOTSTEP_LAVA
+
+/turf/open/floor/plating/beach/sand/coastline_b/setup_broken_states()
+	return list("sandwater_b")
 
 /turf/open/floor/plating/beach/water
 	gender = PLURAL
@@ -162,18 +174,29 @@
 	clawfootstep = FOOTSTEP_LAVA
 	heavyfootstep = FOOTSTEP_LAVA
 
+/turf/open/floor/plating/beach/water/setup_broken_states()
+	return list("water")
+
 /turf/open/floor/plating/beach/coastline_t/sandwater_inner
 	icon_state = "sandwater_inner"
 	baseturfs = /turf/open/floor/plating/beach/coastline_t/sandwater_inner
+
+/turf/open/floor/plating/beach/water/coastline_t/sandwater_inner/setup_broken_states()
+	return list("sandwater_inner")
 
 /turf/open/floor/plating/ironsand
 	gender = PLURAL
 	name = "iron sand"
 	desc = "Like sand, but more <i>metal</i>."
+	icon_state = "ironsand1"
+	base_icon_state = "ironsand1"
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+
+/turf/open/floor/plating/ironsand/setup_broken_states()
+	return list("ironsand1")
 
 /turf/open/floor/plating/ironsand/Initialize()
 	. = ..()
@@ -272,7 +295,6 @@
 	name = "grass"
 	desc = "A patch of grass."
 	icon_state = "grass"
-	broken_states = list("sand")
 	bullet_bounce_sound = null
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_GRASS
@@ -281,3 +303,6 @@
 
 /turf/open/floor/plating/grass/lavaland
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
+/turf/open/floor/plating/grass/setup_broken_states()
+	return list("damaged")

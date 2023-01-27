@@ -17,11 +17,11 @@
 
 
 /turf/open/floor/mineral/Initialize()
-	if(!broken_states)
-		broken_states = list("[initial(icon_state)]_dam")
 	. = ..()
 	icons = typelist("icons", icons)
 
+/turf/open/floor/mineral/setup_broken_states()
+	return list("[initial(icon_state)]_dam")
 
 /turf/open/floor/mineral/update_icon()
 	. = ..()
@@ -93,7 +93,9 @@ TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/mineral/silver)
 	name = "shuttle floor"
 	icon_state = "titanium"
 	floor_tile = /obj/item/stack/tile/mineral/titanium
-	broken_states = list("titanium_dam1","titanium_dam2","titanium_dam3","titanium_dam4","titanium_dam5")
+
+/turf/open/floor/mineral/titanium/setup_broken_states()
+	return list("titanium_dam1","titanium_dam2","titanium_dam3","titanium_dam4","titanium_dam5")
 
 /turf/open/floor/mineral/titanium/rust_heretic_act()
 	return // titanium does not rust
@@ -124,7 +126,9 @@ TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/mineral/titanium/purple)
 /turf/open/floor/mineral/titanium/tiled
 	name = "titanium tile"
 	icon_state = "titanium_old"
-	broken_states = list("titanium_dam1_old","titanium_dam2_old","titanium_dam3_old","titanium_dam4_old","titanium_dam5_old")
+
+/turf/open/floor/mineral/titanium/tiled/setup_broken_states()
+	return list("titanium_dam1_old","titanium_dam2_old","titanium_dam3_old","titanium_dam4_old","titanium_dam5_old")
 
 TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/mineral/titanium/tiled)
 
@@ -153,7 +157,9 @@ TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/mineral/titanium/tiled/purple)
 	name = "shuttle floor"
 	icon_state = "plastitanium"
 	floor_tile = /obj/item/stack/tile/mineral/plastitanium
-	broken_states = list("plastitanium_dam1","plastitanium_dam2","plastitanium_dam3","plastitanium_dam4","plastitanium_dam5")
+
+/turf/open/floor/mineral/plastitanium/setup_broken_states()
+	return list("plastitanium_dam1","plastitanium_dam2","plastitanium_dam3","plastitanium_dam4","plastitanium_dam5")
 
 /turf/open/floor/mineral/plastitanium/rust_heretic_act()
 	return // plastitanium does not rust

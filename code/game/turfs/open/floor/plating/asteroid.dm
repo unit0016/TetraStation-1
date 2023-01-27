@@ -25,6 +25,9 @@
 	/// Whether the turf has been dug or not
 	var/dug
 
+/turf/open/floor/plating/asteroid/setup_broken_states()
+	return list("asteroid_dug")
+
 /turf/open/floor/plating/asteroid/Initialize()
 	var/proper_name = name
 	. = ..()
@@ -103,6 +106,9 @@
 	floor_variance = 15
 	digResult = /obj/item/stack/ore/glass/basalt
 
+/turf/open/floor/plating/asteroid/basalt/setup_broken_states()
+	return list("basalt_dug")
+
 /turf/open/floor/plating/asteroid/basalt/lava //lava underneath
 	baseturfs = /turf/open/lava/smooth
 
@@ -154,11 +160,12 @@
 	environment_type = "snow"
 	flags_1 = NONE
 	planetary_atmos = TRUE
-	broken_states = list("snow_dug")
-	burnt_states = list("snow_dug")
 	bullet_sizzle = TRUE
 	bullet_bounce_sound = null
 	digResult = /obj/item/stack/sheet/mineral/snow
+
+/turf/open/floor/plating/asteroid/snow/setup_broken_states()
+	return list("snow_dug")
 
 /turf/open/floor/plating/asteroid/snow/burn_tile()
 	if(!burnt)
@@ -168,6 +175,9 @@
 		icon_state = "snow_dug"
 		return TRUE
 	return FALSE
+
+/turf/open/floor/plating/asteroid/snow/ice/setup_broken_states()
+	return list("snow-ice")
 
 /turf/open/floor/plating/asteroid/snow/icemoon
 	baseturfs = /turf/open/floor/plating/asteroid/snow/icemoon

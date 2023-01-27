@@ -16,6 +16,9 @@
 
 TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/glass)
 
+/turf/open/floor/glass/setup_broken_states()
+	return list("glass-damaged1", "glass-damaged2", "glass-damaged3")
+
 /turf/open/floor/glass/Initialize()
 	icon_state = "" //Prevent the normal icon from appearing behind the smooth overlays
 	..()
@@ -29,5 +32,8 @@ TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/glass)
 	name = "Reinforced glass floor"
 	desc = "Do jump on it, it can take it."
 	icon = 'icons/turf/floors/reinf_glass.dmi'
+
+/turf/open/floor/glass/reinforced/setup_broken_states()
+	return list("reinf_glass-damaged1", "reinf_glass-damaged2", "reinf_glass-damaged3")
 
 TURF_ATMOS_SUBTYPE_HELPER(/turf/open/floor/glass/reinforced)
