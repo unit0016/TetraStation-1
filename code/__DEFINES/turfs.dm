@@ -7,6 +7,10 @@
 
 #define IS_OPAQUE_TURF(turf) (turf.directional_opacity == ALL_CARDINALS)
 
+#define UNDERFLOOR_HIDDEN 0
+#define UNDERFLOOR_VISIBLE 1
+#define UNDERFLOOR_INTERACTABLE 2
+
 /// Create tile subtypes for a path to simplify mapping.
 #define TURF_ATMOS_SUBTYPE_HELPER(path) \
 ##path/airless {\
