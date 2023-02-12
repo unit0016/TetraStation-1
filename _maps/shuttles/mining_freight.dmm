@@ -84,12 +84,9 @@
 	},
 /obj/docking_port/mobile{
 	dir = 8;
-	dwidth = 3;
-	height = 5;
 	id = "mining_common";
 	name = "lavaland shuttle";
-	port_direction = 4;
-	width = 7
+	port_direction = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
@@ -116,7 +113,7 @@
 /obj/effect/spawner/structure/window/shuttle,
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/mining)
 "q" = (
 /obj/structure/ore_box,
 /obj/effect/turf_decal/delivery,

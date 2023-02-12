@@ -50,16 +50,16 @@
 /area/shuttle/labor)
 "i" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
+	name = "Labor Shuttle Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/plating,
 /area/shuttle/labor)
 "j" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
+	name = "Labor Shuttle Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/labor)
 "k" = (
@@ -67,7 +67,7 @@
 	input_dir = 2;
 	output_dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/shuttle/labor)
 "l" = (
 /turf/open/floor/mineral/titanium,
@@ -106,12 +106,9 @@
 	},
 /obj/docking_port/mobile{
 	dir = 8;
-	dwidth = 2;
-	height = 5;
 	id = "laborcamp";
 	name = "labor camp shuttle";
-	port_direction = 4;
-	width = 9
+	port_direction = 4
 	},
 /turf/open/floor/plating,
 /area/shuttle/labor)

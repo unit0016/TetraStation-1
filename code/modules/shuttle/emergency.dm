@@ -193,9 +193,6 @@
 	name = "emergency shuttle"
 	id = "emergency"
 
-	dwidth = 9
-	width = 22
-	height = 11
 	dir = EAST
 	port_direction = WEST
 	var/sound_played = 0 //If the launch sound has been sent to all players on the shuttle itself
@@ -276,7 +273,7 @@
 					has_people = TRUE
 					var/location = get_turf(player.mind.current)
 					//Non-antag present. Can't hijack.
-					if(!(player.mind.has_antag_datum(/datum/antagonist)) && !istype(location, /turf/open/floor/plasteel/shuttle/red) && !istype(location, /turf/open/floor/mineral/plastitanium/red/brig))
+					if(!(player.mind.has_antag_datum(/datum/antagonist)) && !istype(location, /turf/open/floor/iron/shuttle/red) && !istype(location, /turf/open/floor/mineral/plastitanium/red/brig))
 						return FALSE
 					//Antag present, doesn't stop but let's see if we actually want to hijack
 					var/prevent = FALSE
@@ -443,9 +440,6 @@
 /obj/docking_port/mobile/pod
 	name = "escape pod"
 	id = "pod"
-	dwidth = 1
-	width = 3
-	height = 4
 	launch_status = UNLAUNCHED
 
 /obj/docking_port/mobile/pod/request(obj/docking_port/stationary/S)
@@ -490,10 +484,7 @@
 /obj/docking_port/stationary/random
 	name = "escape pod"
 	id = "pod"
-	dwidth = 1
-	width = 3
-	height = 4
-	var/target_area = /area/lavaland/surface/outdoors
+	var/target_area = /area/planetary/lavaland/surface/outdoors
 	var/edge_distance = 16
 	// Minimal distance from the map edge, setting this too low can result in shuttle landing on the edge and getting "sliced"
 
@@ -517,7 +508,7 @@
 	return INITIALIZE_HINT_QDEL
 
 /obj/docking_port/stationary/random/icemoon
-	target_area = /area/icemoon/surface/outdoors
+	target_area = /area/planetary/icemoon/surface/outdoors
 
 //Pod suits/pickaxes
 
@@ -588,9 +579,6 @@
 /obj/docking_port/mobile/emergency/backup
 	name = "backup shuttle"
 	id = "backup"
-	dwidth = 2
-	width = 8
-	height = 8
 	dir = EAST
 
 /obj/docking_port/mobile/emergency/backup/Initialize()

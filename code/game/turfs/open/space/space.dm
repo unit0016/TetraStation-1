@@ -63,6 +63,13 @@
 	if (opacity)
 		directional_opacity = ALL_CARDINALS
 
+	var/turf/T = SSmapping.get_turf_above(src)
+	if(T)
+		T.multiz_turf_new(src, DOWN)
+	T = SSmapping.get_turf_below(src)
+	if(T)
+		T.multiz_turf_new(src, UP)
+
 	ComponentInitialize()
 
 	return INITIALIZE_HINT_NORMAL
@@ -138,10 +145,10 @@
 		else
 			to_chat(user, "<span class='warning'>You need one rod to build a lattice.</span>")
 		return
-	if(istype(C, /obj/item/stack/tile/plasteel))
+	if(istype(C, /obj/item/stack/tile/iron))
 		var/obj/structure/lattice/L = locate(/obj/structure/lattice, src)
 		if(L)
-			var/obj/item/stack/tile/plasteel/S = C
+			var/obj/item/stack/tile/iron/S = C
 			if(S.use(1))
 				qdel(L)
 				playsound(src, 'sound/weapons/genhit.ogg', 50, TRUE)

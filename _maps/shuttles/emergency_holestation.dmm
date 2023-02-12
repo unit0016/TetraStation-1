@@ -34,18 +34,34 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/carpet/purple,
 /area/shuttle/escape)
+"eV" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/carpet/royalblue,
+/area/shuttle/escape)
 "ga" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/eight,
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "go" = (
 /obj/structure/table/optable,
 /obj/machinery/defibrillator_mount/loaded{
 	pixel_x = -26
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
+"gS" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
 /area/shuttle/escape)
 "hB" = (
 /obj/structure/flora/ausbushes/leafybush,
@@ -94,6 +110,19 @@
 	pixel_y = 24
 	},
 /turf/open/floor/pod/dark,
+/area/shuttle/escape)
+"jH" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/survival_pod/glass,
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/access/any/security/general,
+/turf/open/floor/plating,
 /area/shuttle/escape)
 "kr" = (
 /obj/structure/table/wood,
@@ -152,6 +181,7 @@
 /area/shuttle/escape)
 "np" = (
 /obj/machinery/door/airlock/security/glass,
+/obj/effect/mapping_helpers/airlock/access/any/security/general,
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape)
 "pF" = (
@@ -168,7 +198,7 @@
 /obj/machinery/vending/wallmed{
 	pixel_x = -32
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "qx" = (
 /obj/structure/chair/comfy/shuttle{
@@ -209,11 +239,12 @@
 /area/shuttle/escape)
 "rU" = (
 /obj/machinery/computer/emergency_shuttle,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblue,
 /area/shuttle/escape)
 "sQ" = (
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "sU" = (
 /obj/structure/chair/comfy/shuttle{
@@ -247,7 +278,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "uj" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
@@ -282,7 +313,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -30
 	},
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "xS" = (
 /obj/structure/shuttle/engine/heater,
@@ -297,6 +328,9 @@
 "yX" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
 	},
 /turf/open/floor/carpet/royalblue,
 /area/shuttle/escape)
@@ -338,11 +372,15 @@
 /turf/open/floor/pod,
 /area/shuttle/escape)
 "BX" = (
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "Cu" = (
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
 	},
 /turf/open/floor/pod/dark,
 /area/shuttle/escape)
@@ -396,11 +434,11 @@
 /turf/open/floor/grass,
 /area/shuttle/escape)
 "HX" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/command/glass{
-	req_access_txt = "19";
 	name = "Bridge"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/command/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "Iv" = (
@@ -452,7 +490,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "MM" = (
 /obj/machinery/computer/atmos_alert{
@@ -460,6 +498,9 @@
 	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/carpet/green,
 /area/shuttle/escape)
@@ -486,6 +527,9 @@
 	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
 /turf/open/floor/carpet/red,
 /area/shuttle/escape)
@@ -527,7 +571,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "Rj" = (
 /obj/machinery/button/flasher{
@@ -545,14 +589,14 @@
 	},
 /obj/item/storage/firstaid/fire,
 /obj/item/crowbar,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "Sk" = (
 /obj/machinery/door/airlock/mining/glass,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "Tk" = (
 /obj/structure/shuttle/engine/propulsion,
@@ -572,13 +616,13 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "WB" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate/engineering,
 /obj/item/tank/internals/emergency_oxygen/engi,
-/turf/open/floor/plasteel/mil,
+/turf/open/floor/iron/mil,
 /area/shuttle/escape)
 "WS" = (
 /obj/structure/extinguisher_cabinet{
@@ -593,25 +637,31 @@
 /obj/machinery/computer/crew{
 	dir = 4
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/carpet/green,
 /area/shuttle/escape)
 "Yd" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/command/general,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
-	},
-/obj/machinery/door/airlock/command/glass{
-	req_access_txt = "19";
-	name = "Bridge"
 	},
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "Yu" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "ZB" = (
 /obj/machinery/computer/communications{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/carpet/red,
@@ -639,7 +689,7 @@ ZC
 CJ
 CJ
 CJ
-EB
+jH
 CJ
 QT
 CJ
@@ -753,7 +803,7 @@ Tk
 "}
 (6,1,1) = {"
 rn
-yX
+eV
 OH
 OH
 HX
@@ -782,7 +832,7 @@ OH
 OH
 rn
 li
-pT
+gS
 Rj
 rn
 pT

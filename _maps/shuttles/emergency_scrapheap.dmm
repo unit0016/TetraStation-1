@@ -89,23 +89,23 @@
 /area/shuttle/escape)
 "aq" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Emergency Shuttle Airlock";
-	req_access_txt = "2"
+	name = "Emergency Shuttle Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape)
 "ar" = (
 /obj/machinery/door/airlock/public/glass{
-	name = "Emergency Shuttle Cockpit";
-	req_access_txt = "19"
+	name = "Emergency Shuttle Cockpit"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/command/general,
 /turf/open/floor/carpet,
 /area/shuttle/escape)
 "as" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Emergency Shuttle Airlock";
-	req_access_txt = "2"
+	name = "Emergency Shuttle Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
 "at" = (
@@ -122,14 +122,14 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/shuttle/escape)
 "av" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/shuttle/escape)
 "aw" = (
 /turf/open/floor/mineral/titanium,
@@ -157,23 +157,23 @@
 "az" = (
 /obj/structure/grille,
 /obj/machinery/door/airlock/public/glass{
-	name = "Emergency Shuttle Brig";
-	req_access_txt = "2"
+	name = "Emergency Shuttle Brig"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "aA" = (
 /obj/structure/grille/broken,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/shuttle/escape)
 "aB" = (
 /turf/closed/wall/mineral/titanium/interior,
 /area/shuttle/escape)
 "aC" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Emergency Shuttle Airlock";
-	req_access_txt = "2"
+	name = "Emergency Shuttle Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "aD" = (
@@ -297,13 +297,13 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "aX" = (
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/shuttle/escape)
 "aY" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/shuttle/escape)
 "aZ" = (
 /obj/machinery/door/airlock/titanium{
@@ -319,7 +319,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/shuttle/escape)
 "bb" = (
 /obj/structure/window/reinforced{
@@ -331,7 +331,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/shuttle/escape)
 "bc" = (
 /obj/machinery/status_display/evac,
@@ -341,10 +341,10 @@
 /obj/machinery/door/airlock{
 	name = "Unisex Restrooms"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "be" = (
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bf" = (
 /obj/structure/extinguisher_cabinet{
@@ -353,25 +353,25 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bg" = (
 /obj/machinery/door/airlock{
 	name = "Unit 1"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bh" = (
 /obj/machinery/door/airlock{
 	name = "Unit 2"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bi" = (
 /obj/machinery/door/airlock{
 	name = "Unit B"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bj" = (
 /obj/structure/toilet{
@@ -380,14 +380,14 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bk" = (
 /obj/machinery/recharge_station,
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/shuttle/escape)
 "bl" = (
 /obj/structure/window/reinforced{

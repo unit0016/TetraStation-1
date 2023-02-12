@@ -33,14 +33,11 @@
 	icon_state = "pinonclose";
 	dir = 8;
 	id = "whiteship";
-	width = 33;
-	height = 17;
-	dwidth = 11;
 	callTime = 250;
 	preferred_direction = 4;
 	port_direction = 8;
 	launch_status = 0;
-	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0);
+	movement_force = list("KNOCKDOWN"=0,"THROW"=0);
 	can_move_docking_ports = 1
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -95,7 +92,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 1;
 	pixel_y = -24
 	},
@@ -354,7 +351,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/cobweb,
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 4;
 	pixel_x = -24
 	},
@@ -479,7 +476,7 @@
 /obj/structure/sign/warning/electricshock{
 	pixel_y = 32
 	},
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 8;
 	pixel_x = 24
 	},
@@ -732,7 +729,7 @@
 /obj/structure/sign/warning/vacuum/external{
 	pixel_x = -32
 	},
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 1;
 	pixel_y = -24
 	},
@@ -777,7 +774,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/effect/turf_decal/delivery,
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 1;
 	pixel_y = -24
 	},
@@ -1108,7 +1105,7 @@
 "bX" = (
 /obj/structure/bed,
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 4;
 	pixel_x = -24
 	},
@@ -1126,7 +1123,7 @@
 "bZ" = (
 /obj/structure/bed,
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 8;
 	pixel_x = 24
 	},
@@ -1148,7 +1145,7 @@
 	pixel_x = -8;
 	pixel_y = 8
 	},
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	pixel_y = 22
 	},
 /turf/open/floor/carpet,
@@ -1194,7 +1191,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 4;
 	pixel_x = -24
 	},
@@ -1282,7 +1279,7 @@
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cn" = (
 /obj/effect/turf_decal/tile/bar,
@@ -1304,7 +1301,7 @@
 /obj/machinery/light_switch{
 	pixel_x = 24
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "co" = (
 /obj/effect/turf_decal/delivery,
@@ -1466,7 +1463,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cD" = (
 /obj/effect/turf_decal/tile/bar,
@@ -1482,7 +1479,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -1502,7 +1499,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/crew)
 "cG" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -1524,7 +1521,7 @@
 /mob/living/simple_animal/hostile/netherworld/migo{
 	environment_smash = 0
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/crew)
 "cH" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1532,7 +1529,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/crew)
 "cI" = (
 /obj/effect/turf_decal/delivery,
@@ -1636,7 +1633,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cS" = (
 /obj/effect/turf_decal/tile/bar,
@@ -1648,7 +1645,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cT" = (
 /obj/effect/turf_decal/tile/bar,
@@ -1667,7 +1664,7 @@
 /mob/living/simple_animal/hostile/netherworld{
 	environment_smash = 0
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cU" = (
 /obj/effect/turf_decal/tile/bar,
@@ -1684,7 +1681,7 @@
 	pixel_y = 5
 	},
 /obj/machinery/light,
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/iron/showroomfloor,
 /area/shuttle/abandoned/bar)
 "cV" = (
 /obj/structure/closet/secure_closet/personal,
@@ -1710,7 +1707,7 @@
 	icon_state = "trimline_fill";
 	dir = 1
 	},
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 1;
 	pixel_y = -24
 	},
@@ -1811,7 +1808,7 @@
 	pixel_x = 12;
 	pixel_y = 6
 	},
-/obj/machinery/airalarm/all_access{
+/obj/machinery/airalarm/unlocked/all_access{
 	dir = 1;
 	pixel_y = -24
 	},

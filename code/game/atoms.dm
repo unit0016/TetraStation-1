@@ -156,7 +156,7 @@
 	var/do_initialize = SSatoms.initialized
 	if(do_initialize != INITIALIZATION_INSSATOMS)
 		args[1] = do_initialize == INITIALIZATION_INNEW_MAPLOAD
-		if(SSatoms.InitAtom(src, args))
+		if(SSatoms.InitAtom(src, FALSE, args))
 			//we were deleted
 			return
 
@@ -340,7 +340,7 @@
 		return FALSE
 
 	//Check for centcom itself
-	if(istype(T.loc, /area/centcom))
+	if(istype(T.loc, /area/special/centcom))
 		return TRUE
 
 	//Check for centcom shuttles
@@ -367,7 +367,7 @@
 	if(!is_centcom_level(T.z))//if not, don't bother
 		return FALSE
 
-	if(istype(T.loc, /area/shuttle/syndicate) || istype(T.loc, /area/syndicate_mothership) || istype(T.loc, /area/shuttle/assault_pod))
+	if(istype(T.loc, /area/shuttle/syndicate) || istype(T.loc, /area/special/syndicate_mothership) || istype(T.loc, /area/shuttle/assault_pod))
 		return TRUE
 
 	return FALSE
@@ -423,10 +423,6 @@
 				else
 					M.forceMove(src)
 		parts_list.Cut()
-
-///Hook for multiz???
-/atom/proc/update_multiz(prune_on_fail = FALSE)
-	return FALSE
 
 ///Take air from the passed in gas mixture datum
 /atom/proc/assume_air(datum/gas_mixture/giver)
@@ -1483,7 +1479,7 @@
 
 	if(isspaceturf(T)) // Turf never has gravity
 		return 0
-	if(istype(T, /turf/open/transparent/openspace)) //openspace in a space area doesn't get gravity
+	if(istype(T, /turf/open/openspace)) //openspace in a space area doesn't get gravity
 		if(istype(get_area(T), /area/space))
 			return 0
 

@@ -82,17 +82,42 @@
 /obj/structure/lattice/catwalk/deconstruction_hints(mob/user)
 	return "<span class='notice'>The supporting rods look like they could be <b>cut</b>.</span>"
 
-/obj/structure/lattice/catwalk/Move()
+/obj/structure/lattice/catwalk/proc/cablecheck()
 	var/turf/T = loc
-	for(var/obj/structure/cable/C in T)
+	for(var/obj/structure/cable/C in T && layer >> WIRE_TERMINAL_LAYER)
 		C.deconstruct()
+
+/obj/structure/lattice/catwalk/Move()
+	cablecheck()
 	..()
 
 /obj/structure/lattice/catwalk/deconstruct()
-	var/turf/T = loc
-	for(var/obj/structure/cable/C in T)
-		C.deconstruct()
+	cablecheck()
 	..()
+
+/// A variant of catwalks placed over plating.
+/obj/structure/lattice/catwalk/over
+	layer = LOW_OBJ_LAYER
+	plane = GAME_PLANE
+
+/obj/structure/lattice/catwalk/over/plated
+	icon = 'icons/obj/catwalk.dmi'
+	icon_state = "plated_maint"
+	smoothing_flags = NONE
+	smoothing_groups = null
+	canSmoothWith = null
+
+/obj/structure/lattice/catwalk/over/plated/plasteel
+	icon_state = "plated"
+
+/obj/structure/lattice/catwalk/over/plated/plasteel/dark
+	icon_state = "plated_dark"
+
+/obj/structure/lattice/catwalk/over/plated/plasteel/white
+	icon_state = "plated_white"
+
+/obj/structure/lattice/catwalk/over/plated/plasteel/mil
+	icon_state = "plated_tgmc"
 
 /obj/structure/lattice/lava
 	name = "heatproof support lattice"
@@ -108,8 +133,8 @@
 
 /obj/structure/lattice/lava/attackby(obj/item/C, mob/user, params)
 	. = ..()
-	if(istype(C, /obj/item/stack/tile/plasteel))
-		var/obj/item/stack/tile/plasteel/P = C
+	if(istype(C, /obj/item/stack/tile/iron))
+		var/obj/item/stack/tile/iron/P = C
 		if(P.use(1))
 			to_chat(user, "<span class='notice'>You construct a floor plating, as lava settles around the rods.</span>")
 			playsound(src, 'sound/weapons/genhit.ogg', 50, TRUE)
